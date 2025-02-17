@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --violet--:rgb(57, 49, 133);
+    --purple--:rgb(120, 34, 131);
+    --pink--:rgb(229, 9, 127);
+}

@@ -3,7 +3,7 @@ import HOC from '../HOC';
 
 function Homepage() {
   return (
-    <div>azsdasd
+    <div>
       
     </div>
   );
