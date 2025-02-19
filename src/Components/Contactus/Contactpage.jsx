@@ -1,12 +1,12 @@
 import React from 'react';
 import HOC from '../HOC';
 
-function Homepage() {
+function Contactpage() {
   return (
     <div>
-      home
+      contact
     </div>
   );
 }
 
-export default HOC(Homepage);
+export default HOC(Contactpage);

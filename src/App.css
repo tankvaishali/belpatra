@@ -1,79 +1,187 @@
 /* Reset and Variables */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  :root {
-    --violet: rgb(36, 27, 122);
-    --purple: rgb(120, 34, 131);
-    --pink: rgb(229, 9, 127);
-  
-  }
-  
-  /* Logo Styling */
-  .logoset {
-    width: 150px;
-  }
-  
-  /* Navigation Menu Styling */
-  #primary {
-    display: flex;
-    gap: 40px; /* Adds spacing between the menu items */
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    align-items: center;
-  }
-  
-  #primary li {
-    position: relative;
-  }
-  
-  #primary li a {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    color: black; /* Default text color is black */
-    background-image: linear-gradient(to right, var(--purple), var(--pink) 50%, #fff 50%);
-    background-size: 200% 100%;
-    background-position: -100%; /* Gradient hidden initially */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: black; /* Default black text before hover */
-    transition: 
-      background-position 1s ease, /* Slow motion for gradient */
-      -webkit-text-fill-color 0.5s ease; /* Smooth transition for text color */
-    position: relative;
-    display: inline-block;
-  }
-  
-  #primary li a::before {
-    content: '';
-    position: absolute;
-    bottom: -3px; /* Positions the underline just below the text */
-    left: 0;
-    height: 3px;
-    width: 0;
-    background-image: linear-gradient(to left, var(--violet), var(--pink) ,var(--pink));
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    transition: width 1s ease; /* Smooth underline expansion */
+:root {
+  --violet: rgb(36, 27, 122);
+  --purple: rgb(120, 34, 131);
+  --pink: rgb(229, 9, 127);
+  --bgcolor: linear-gradient(to right, var(--violet), var(--pink) ,var(--pink))
+
+}
+.bgcolor{
+  background-image: linear-gradient(to right, var(--violet), var(--pink) ,var(--pink));
+}
+.pera{
+  font-size: 16px !important;
+}
+
+.animated-image {
+  animation: upDown 5s ease-in-out infinite;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0%);
   }
-  
-  /* On hover, change the text fill and reveal the gradient */
-  #primary li a:hover {
-    -webkit-text-fill-color: transparent; /* Text turns transparent to reveal the gradient */
-    background-position: 0%; /* Reveals the gradient slowly from right to left */
+  50% {
+    transform: translateY(-13%);
   }
-  
-  #primary li a:hover::before {
-    width: 100%; /* Expands the underline slowly from left to right */
+  100% {
+    transform: translateY(0%);
   }
+}
+
+/* header start */
+/* Logo Styling */
+.logoset {
+  width: 150px;
+}
+
+/* Navigation Menu Styling */
+#primary {
+  display: flex;
+  gap: 25px; /* Adds spacing between the menu items */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+#primary li {
+  position: relative;
+}
+
+#primary li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: black; /* Default text color is black */
+  background-image: linear-gradient(to right, var(--purple), var(--pink) 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: -100%; /* Gradient hidden initially */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: black; /* Default black text before hover */
+  transition: 
+    background-position 1s ease, /* Slow motion for gradient */
+    -webkit-text-fill-color 0.5s ease; /* Smooth transition for text color */
+  position: relative;
+  display: inline-block;
+}
+
+#primary li a::before {
+  content: '';
+  position: absolute;
+  bottom: -3px; /* Positions the underline just below the text */
+  left: 0;
+  height: 3px;
+  width: 0;
+  background-image: linear-gradient(to left, var(--violet), var(--pink) ,var(--pink));
+
+  transition: width 1s ease; /* Smooth underline expansion */
+}
+
+/* On hover, change the text fill and reveal the gradient */
+#primary li a:hover ,#primary .nav-link.active,#primary .nav-link:focus{
+  -webkit-text-fill-color: transparent; /* Text turns transparent to reveal the gradient */
+  background-position: 0%; /* Reveals the gradient slowly from right to left */
+}
+
+#primary li a:hover::before,#primary .nav-link.active::before,#primary .nav-link:focus::before {
+  width: 100%; /* Expands the underline slowly from left to right */
+}
+
+/* Default state of the text should be black */
+#primary li a:focus,
+#primary li a:active {
+  color: black; /* Ensure focus and active state text remains black */
+}
+/* header end */
+
+/* footer start */
+.footer_bg{
+  background-image: url("./Assets/Images/footerbackground.jpg");
+  background-repeat: no-repeat;
+background-size: cover;
+}
+.footerpt{
+  padding-top: 100px;
+
+}
+.footericon {
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px 0px 12px 0px;
+  font-size: 19px;
+}
+
+.footericon:hover {
   
-  /* Default state of the text should be black */
-  #primary li a:focus,
-  #primary li a:active {
-    color: black; /* Ensure focus and active state text remains black */
-  }
-  
-  
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.facebookicon {
+  background-color: #1877f2 !important;
+}
+.facebookicon:hover{
+  background-color: white !important;
+  color: #1877f2 !important;
+  text-shadow: 0 0 5px #1877f2 !important;
+  box-shadow: 0 0 15px 5px #1877f2 !important;
+}
+.instaicon {
+  background-image: linear-gradient(180deg,
+      #833ab4,
+      #c13584,
+      #e1306c,
+      #f77737,
+      #ffdc80);
+}
+.instaicon:hover{
+  background-color: white !important;
+  color: #e1306c !important;
+  background-image:none !important;
+  text-shadow: 0 0 5px #e1306c !important;
+  box-shadow: 0 0 15px 5px #e1306c !important;
+}
+
+.linkicon {
+  background-color: #0077b5 !important;
+}
+.linkicon:hover{
+  background-color: white !important;
+  color: #0077b5 !important;
+  text-shadow: 0 0 5px #0077b5 !important;
+  box-shadow: 0 0 15px 5px #0077b5 !important;
+}
+
+.twittericon {
+  background-color: #1DA1F2 !important;
+}
+.twittericon:hover{
+  background-color: white !important;
+  color: #1DA1F2 !important;
+  text-shadow: 0 0 5px #1DA1F2 !important;
+  box-shadow: 0 0 15px 5px #1DA1F2 !important;
+}
+.linkhover{
+  color: white;
+}
+.linkhover:hover{
+  color: rgb(194, 194, 194);
+}
+.footerlinkicon{
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;  
+}
+.linkhover:hover .footerlinkicon{
+  transform: scale(1.1) !important;
+}
+
+/* footer end */
