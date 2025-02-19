@@ -13,11 +13,23 @@
 
 }
 .bgcolor{
-  background-image: linear-gradient(to right, var(--violet), var(--pink) ,var(--pink));
+  background-image: var(--bgcolor);
+}
+.fstyle{
+  font-family: "Lora", serif;
 }
 .pera{
   font-size: 16px !important;
 }
+.titletext {
+  font-family: "Lora", serif;
+  font-weight: 500;
+width:fit-content;
+border-bottom: 1.5px solid var(--pink); 
+  margin: 0 auto;
+
+}
+
 
 .animated-image {
   animation: upDown 5s ease-in-out infinite;
