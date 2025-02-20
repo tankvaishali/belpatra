@@ -1,104 +1,71 @@
 import React from "react";
-import Slider from "react-slick";
-// import { TitleHeadLight } from "./TitleHead";
+import { ImageList, ImageListItem } from "@mui/material";
 
-
-function Logorun() {
-    var settings = {
-        dots: false,
-        infinite: true,
-        speed: 2500,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        initialSlide: 0,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        swipe: false,
-        arrows: false,
-        pauseOnHover: false,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true,
-                },
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                    initialSlide: 1,
-                },
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                },
-            },
-        ],
-    };
-    let carddata = [
-        {
-            img: require('../Assets/Images/logo.png'),
-        },
-        {
-            img: require('../Assets/Images/logo.png'),
-        },
-        {
-            img: require('../Assets/Images/logo.png'),
-        },
-        {
-            img: require('../Assets/Images/logo.png'),
-        },
-        {
-            img: require('../Assets/Images/logo.png'),
-        },
-        {
-            img: require('../Assets/Images/logo.png'),
-        }
-
+const Logorun = () => {
+    const logos = [
+        require('../Assets/Images/logo.png'),
+        require('../Assets/Images/3-fieldbrand.jpg'),
+        require('../Assets/Images/partnerlogo (1).png'),
+        require('../Assets/Images/partnerlogo (1).webp'),
+        require('../Assets/Images/partnerlogo (3).png'),
+        require('../Assets/Images/partnerlogo (4).png'),
+        require('../Assets/Images/partnerlogo.png'),
+        require('../Assets/Images/3-fieldbrand.jpg'), // Fixed: Corrected or added proper image
+        require('../Assets/Images/partnerlogo.png'), // Fixed: Corrected or added proper image
+        require('../Assets/Images/partnerlogo (3).png'),
+        require('../Assets/Images/partnerlogo (4).png'),
+        require('../Assets/Images/partnerlogo.png'),
     ];
-    return (
-        <>
-            <div className="logorun_bck py-5 px-0 px-lg-5">
-                <div className="container mb-5">
-                    <div className='logorun'>
-                        <div className="">
-                            {/* <TitleHeadLight textb2='Trusted by' lineb2='the world’s leading organizations' /> */}
-                        </div>
-                        <div className="my-1">
-                            <Slider {...settings} className="">
-                                {carddata?.map((x, i) => {
-                                    return (
-                                        <div className="mx-3">
-                                            <div className="m-3 hgcx bg-light" style={{ height: '140px' }} key={i}>
-                                                <div
-                                                    className="p-3 p-lg-5 "
-                                                >
-                                                    <img
-                                                        src={x.img}
-                                                        alt=""
-                                                        className="img-fluid h-100 w-100 object-fit-cover  "
 
-                                                    />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    );
-                                })}
-                            </Slider>
+    return (
+        <div className="designbox my-5 shadow-lg">
+            <div className="designBox2">
+                <div className="container my-5" style={{ fontFamily: "Montserrat, sans-serif" }}>
+                    <div className="row">
+                        <div
+                            className="col-lg-5 col-md-7 col-sm-9 col-11 m-auto"
+                            data-aos="fade-right"
+                            data-aos-duration="1500"
+                        >
+                            <h1
+                                className="fw-bold lemon text-light text-capitalize my-5"
+                                style={{ textShadow: "1px 1px black" }}
+                            >
+                                Our esteemed Clients Through Excellence in{" "}
+                                <span style={{ color: "var(--pink)" }}> BELPATRA PHARMACHEM</span>
+                            </h1>
+                            <p className="fs-6 text-light pera">
+                                BELPATRA PHARMACHEM is an India-based entity that is acknowledged as one of
+                                the prominent companies in the global market is engaged in the field of
+                                pharmaceutical drug manufacturing and pharmaceutical drugs export.
+                            </p>
+                        </div>
+                        <div
+                            className="partners-logo-slider col-lg-6 col-md-8 col-sm-10 col-11 my-lg-0 my-5 py-2 py-lg-5"
+                            data-aos="fade-left"
+                            data-aos-duration="1500"
+                        >
+                            <ImageList variant="masonry" cols={2} gap={8} className="slide-track">
+                                {logos.concat(logos).map((item, index) => (
+                                    <ImageListItem
+                                        key={index}
+                                        className="slide bg-light rounded-4 p-5"
+                                    >
+                                        <img
+                                            src={item}
+                                            alt={`Logo ${index}`}
+                                            loading="lazy"
+                                            className="rounded-4"
+                                        />
+                                    </ImageListItem>
+                                ))}
+                            </ImageList>
                         </div>
                     </div>
                 </div>
             </div>
-        </>
-    )
-}
+        </div>
+    );
+};
 
-export default Logorun
+export default Logorun;

@@ -4,9 +4,10 @@ import React, { useState } from 'react'
 import { HiBuildingOffice2} from "react-icons/hi2";
 import { TbPhoneCall } from "react-icons/tb";
 import { TfiEmail } from "react-icons/tfi";
-import HOC from '../HOC';
-import "../../Assets/Css/Contactcss.css"
-import Logorun from '../Logorun';
+
+
+
+import Buttoncom from '../Buttoncom';
 function Contactus() {
 const [errmsg, seterrmsg] = useState({ });
 const [blankobj, setblankobj] = useState({ });
@@ -70,6 +71,17 @@ seterrmsg({...errmsg})
   }
   return(
     <>
+
+
+
+
+
+
+
+
+
+
+
     <div className='contactus_back'ddata-aos="zoom-in" data-aos-delay="50"
     data-aos-duration="1500">
 
@@ -80,13 +92,13 @@ seterrmsg({...errmsg})
     <div className='row g-4 py-4'>
     <div className='col-12 col-lg-4  pt-2 '>
 <div className="h-100 d-flex flex-column justify-content-between ">
-<div className='card  contactbck_color shadow border-0 p-4  py-5' data-aos="zoom-in" data-aos-delay="50"
+<div className='card  contactbck_color shadow border-0 p-2  py-4' data-aos="zoom-in" data-aos-delay="50"
     data-aos-duration="1500">
-         <div className='d-flex  align-items-center justify-content-start ps-2'>
-      <div className='contactusicon rounded-circle d-flex align-items-center justify-content-center align-content-center  text-white'>
+         <div className='text-center'>
+      <div className='contactusicon rounded-circle d-flex align-items-center justify-content-center align-content-center  text-white mx-auto'>
       <HiBuildingOffice2 />
         </div>
-        <div className='ps-4'>
+        <div className=''>
         <div className='fs-4 fw-medium py-1 fstyle'>Location</div>
         <div className='pera py-1 text-secondary'>Plot No. 1, Shop No. 5, Ground Floor, Shaktinagar Co. Op. Housing Society, Near Kantareswar Mahadev Temple Katargam, Surat – 395004 ,Gujarat
         </div>
@@ -95,13 +107,13 @@ seterrmsg({...errmsg})
       
        
       </div>
-      <div className='card  contactbck_color shadow border-0 p-4 my-4  py-5' data-aos="zoom-in" data-aos-delay="50"
+      <div className='card  contactbck_color shadow border-0 p-2 my-4  py-4' data-aos="zoom-in" data-aos-delay="50"
     data-aos-duration="1500">
-         <div className='d-flex  align-items-center justify-content-start ps-2'>
-      <div className='contactusicon rounded-circle d-flex align-items-center justify-content-center align-content-center  text-white'>
+         <div className='text-center'>
+      <div className='contactusicon rounded-circle d-flex align-items-center justify-content-center align-content-center  text-white mx-auto'>
       <TbPhoneCall />
         </div>
-        <div className='ps-4'>
+        <div className=''>
         <div className='fs-4 fw-medium py-1 fstyle'>Call For Help</div>
         <div className='pera py-1 text-secondary'>+(91) 98983 99973
     
@@ -111,13 +123,13 @@ seterrmsg({...errmsg})
       
        
       </div>
-      <div className='card  contactbck_color shadow border-0 p-4  py-5' data-aos="zoom-in" data-aos-delay="50"
+      <div className='card  contactbck_color shadow border-0 p-2  py-4' data-aos="zoom-in" data-aos-delay="50"
     data-aos-duration="1500">
-        <div className='d-flex align-items-center justify-content-start ps-2'>
-      <div className='contactusicon rounded-circle d-flex align-items-center justify-content-center align-content-center  text-white' >
+        <div className='text-center'>
+      <div className='contactusicon rounded-circle d-flex align-items-center justify-content-center align-content-center  text-white mx-auto' >
       <TfiEmail />
         </div>
-        <div className='ps-4'>
+        <div className=''>
         <div className='fs-4 fw-medium py-1 fstyle'>Mail For Information</div>
         <div className='pera py-2 text-secondary'>sales@belpatrapharmachem.com
        
@@ -134,7 +146,7 @@ seterrmsg({...errmsg})
     data-aos-duration="1500">
   Get In Touch
    </h2>
-   <div className='pera text-secondary' data-aos="zoom-in" data-aos-delay="50"
+   <div className='pera text-secondary my-1 mb-2' data-aos="zoom-in" data-aos-delay="50"
     data-aos-duration="1500">The page actually lists out what people will get when they ask a question, including a we will try for a short response time of 24 hours or fewer.
     </div>
 <div className='contactbck_color shadow rounded' data-aos="zoom-in" data-aos-delay="50"
@@ -153,7 +165,10 @@ seterrmsg({...errmsg})
   <textarea type='text' name='textarea' onChange={getdata} value={obj?.textarea} placeholder='Type your message' className='w-100 p-2 mt-2 text-secondary border border-secondary-substle form-control' />
   <span className='text-danger  d-block' style={{ fontSize: "14px", height: "15px" }}>{errmsg.textarea}</span>
   <br></br>
-  <button type='button' className='staff_btn p-2 px-5 fw-bold rounded my-2 mt-2' onClick={savedata}>Submit</button>
+  {/* <button type='button' className='staff_btn fw-bold  my-2 animated-button  mt-2 shadow' onClick={savedata}><span>Submit</span></button> */}
+<div onClick={savedata}  style={{width:"fit-content"}}>
+<Buttoncom btn="submit"/>
+</div>
 </form>
 </div>
 
@@ -161,18 +176,12 @@ seterrmsg({...errmsg})
 
      </div>
       </div>
-<div className='py-5'>
-  {/* <Heading headingtittle={"Our Location"} headingpera={" An online acquaintance and our location for  keep in touch."}/> */}
 
-<div className='py-3'>
-<iframe title='google map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119066.52982230402!2d72.82229625000001!3d21.15920015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1707367688482!5m2!1sen!2sin" width="100%" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-</div>
 
    </div>
-<Logorun/>
+
     </>
   )
 }
 
-export default HOC(Contactus)
+export default Contactus

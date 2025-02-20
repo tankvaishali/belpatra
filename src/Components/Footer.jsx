@@ -12,7 +12,7 @@ function Footer() {
     </div> */}
 <div className="footer_bg w-100 mt-5">
 <div className="container">
-<div className="row g-5 footerpt border-bottom border-white border-2" >
+<div className="row g-4 g-lg-5 footerpt border-bottom border-white border-2" >
 <div className="col-12 col-md-6 col-lg-5 py-2 py-lg-5">
     <div style={{width:150}}>
     <img src={require("../Assets/Images/logo.png")} alt="" className='img-fluid bg-white  p-3 pt-2 rounded-pill d-flex align-items-center'/>
