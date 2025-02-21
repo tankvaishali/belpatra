@@ -1,7 +1,8 @@
 import React from 'react';
 import { BiSolidPhoneCall } from 'react-icons/bi';
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaMailBulk, FaTwitter } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaMailBulk, FaPills, FaTwitter } from 'react-icons/fa';
 import { FaMapLocationDot } from 'react-icons/fa6';
+import { IoHomeSharp, IoPeopleSharp } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -61,10 +62,32 @@ function Footer() {
     <h3 className='text-white fw-bold border-bottom border-2 pb-2' style={{width:"fit-content"}}>
     Useful Link
     </h3>
-    <Link to={"/"} className='d-block text-decoration-none py-1 pera linkhover'>Home</Link>
-    <Link to={"/about"} className='d-block text-decoration-none py-1 pera linkhover'>About Us</Link>
-    <Link to={"/product"} className='d-block text-decoration-none py-1 pera linkhover'>Product</Link>
-    <Link to={"/contact"} className='d-block text-decoration-none py-1 pera linkhover'>Contact Us</Link>
+    <div className="py-2 d-flex align-items-center">
+                <div className="text-white text-decoration-none footerlinkicon fs-5">
+                  <IoHomeSharp />
+                </div>
+                <Link to={"/"} className=' text-decoration-none ps-2 pt-1 pera linkhover'>Home</Link>
+              </div>
+    <div className="py-2 d-flex align-items-center">
+                <div className="text-white text-decoration-none footerlinkicon fs-5">
+                  <IoPeopleSharp />
+                </div>
+                <Link to={"/about"} className=' text-decoration-none ps-2 pt-1 pera linkhover'>About Us</Link>
+              </div>
+    <div className="py-2 d-flex align-items-center">
+                <div className="text-white text-decoration-none footerlinkicon fs-5">
+                  <FaPills />
+                </div>
+                <Link to={"/product"} className=' text-decoration-none ps-2 pt-1 pera linkhover'>Product</Link>
+              </div>
+    <div className="py-2 d-flex align-items-center">
+                <div className="text-white text-decoration-none footerlinkicon fs-5">
+                  <BiSolidPhoneCall />
+                </div>
+                <Link to={"/contact"} className=' text-decoration-none ps-2 pt-1 pera linkhover'>Contact Us</Link>
+              </div>
+   
+   
   
 </div>
 <div className="col-12 col-md-6 col-lg-4 py-2 py-lg-5">
