@@ -82,11 +82,9 @@ seterrmsg({...errmsg})
 
 
 
-    <div className='contactus_back'ddata-aos="zoom-in" data-aos-delay="50"
+    <div className='contactus_back mt-5'ddata-aos="zoom-in" data-aos-delay="50"
     data-aos-duration="1500">
 
-    <h1 className='titletext text-center'  data-aos="zoom-in" data-aos-delay="50"
-    data-aos-duration="1800">Our Contact </h1>
     </div>
    <div className='container py-5'>
     <div className='row g-4 py-4'>
@@ -142,7 +140,7 @@ seterrmsg({...errmsg})
     </div>
      <div className='col-12 col-lg-8  '>
   <div  className='h-100 d-flex flex-column justify-content-between '>
-  <h2 className='text-start fstyle my-2' data-aos="zoom-in" data-aos-delay="50"
+  <h2 className='text-start fstyle my-2 titletext ' data-aos="zoom-in" data-aos-delay="50"
     data-aos-duration="1500">
   Get In Touch
    </h2>
