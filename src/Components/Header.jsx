@@ -53,7 +53,7 @@ function Header() {
          
             
          <Link to={"tel:9898399973"} className="text-decoration-none  d-flex align-items-center justify-content-center"> 
-         <div className='text-white fs-4 bgcolor p-2 rounded-circle d-flex align-content-center align-itmes-center justify-content-center me-1 animated-image'> <MdWifiCalling3 /> </div>
+         <div className='text-white fs-4 bgcolor p-2 rounded-circle d-flex align-content-center align-itmes-center justify-content-center me-1 animated-icon'> <MdWifiCalling3 /> </div>
          <div className='text-black text-decoration-none fw-medium'>+(91) 98983 99973</div>
          </Link>
        </div>

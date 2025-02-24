@@ -12,6 +12,12 @@
   --bgcolor: linear-gradient(to right, var(--violet), var(--pink) ,var(--pink));
 --fontfamily:"Lora", serif;
 }
+.pinkcolor {
+  color: var(--pink);
+}
+.purplecolor{
+  color: var(--purple);
+}
 .bgcolor{
   background-image: var(--bgcolor);
 }
@@ -40,7 +46,24 @@ border-bottom: 1.5px solid var(--pink);
     transform: translateY(0%);
   }
   50% {
-    transform: translateY(-13%);
+    transform: translateY(-6%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.animated-icon {
+  animation: upDownicon 3s ease-in-out infinite;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes upDownicon {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-18%);
   }
   100% {
     transform: translateY(0%);

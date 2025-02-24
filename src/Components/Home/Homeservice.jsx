@@ -1,5 +1,5 @@
 import React from "react";
-import { RiServiceFill } from "react-icons/ri";
+
 
 const Homeservice = () => {
   let servicedata = [
@@ -25,7 +25,7 @@ const Homeservice = () => {
 
   return (
     <>
-      <div className="service_bg w-100 my-5 mt-0 py-4">
+      <div className="service_bg w-100  py-4">
         <div className="container py-5">
           <div>
             <h1

@@ -5,6 +5,7 @@
 .iconbg{
   background-color: var(--purple);
 }
+
 @media screen and (max-width: 768px){
   .homeabout_bg{
   background-image: none;
@@ -27,9 +28,6 @@
   box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.664);
 }
 
-.pinkcolor {
-  color: var(--pink);
-}
 
 .cardcss {
   background-color: black;
@@ -58,3 +56,23 @@
 }
 
 /* home service end */
+
+/* Why choose start */
+.whychoose_bg{
+  
+  /* background-image: url("../Images/whychooseus_enhanced.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.192);
+
+}
+
+.icon_circle {
+  border-radius: 200px 200px 200px 0px;
+  -webkit-border-radius: 200px 200px 200px 0px;
+  -moz-border-radius: 200px 200px 200px 0px;
+  height: 65px;
+  width: 65px;
+}
+
+/* Why choose end */
