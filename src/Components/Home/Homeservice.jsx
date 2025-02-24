@@ -25,7 +25,7 @@ const Homeservice = () => {
 
   return (
     <>
-      <div className="service_bg w-100 my-5 py-4">
+      <div className="service_bg w-100 my-5 mt-0 py-4">
         <div className="container py-5">
           <div>
             <h1
@@ -43,7 +43,7 @@ const Homeservice = () => {
               trusted certification make us a trusted global generic brand.
             </div>
 
-            <div className="row g-5 d-flex justify-content-center align-items-stretch my-4 text-white">
+            <div className="row g-3 g-lg-5 d-flex justify-content-center align-items-stretch my-4 text-white">
               {servicedata.map((x, i) => {
                 return (
                   <div key={i} className="col-12 col-md-6 col-lg-4" >
