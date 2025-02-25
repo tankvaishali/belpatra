@@ -171,15 +171,20 @@ font-family: var(--fontfamily);
 
 /* image hover end */
 /* leanding page start */
-.landing_image{
-  background-image: url("./Assets/Images/medium-shot-business-team-working-together_23-2149271705.jpg");
+.landing_image,.landing_aboutimage{
+  background-image: url("https://img.freepik.com/free-photo/colleagues-working-together-call-center-office_23-2149256064.jpg?t=st=1740484421~exp=1740488021~hmac=c79ed31e35e1f2ee8d0ffe28acefc0f6b7b6682a5eac3068f1ea383bd485ab40&w=1060");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom center;
   height: 95vh;
   box-shadow: inset 0px 0px 1000px 1500px rgba(0, 0, 0, 0.541);
 }
+
+.landing_aboutimage{
+  background-image: url("./Assets/Images/medium-shot-business-team-working-together_23-2149271705.jpg");
+  background-position: bottom center;
+}
+
 .titlediv{
   text-shadow: 0 7px 8px #FF0000, 0 10px 10px #0000FF;
   font-size: 55px;

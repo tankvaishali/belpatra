@@ -1,0 +1,6 @@
+.aboutus_bgcolor{
+    background-image: url('../Images/footercolor.jpg')  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0px 2000px 200px rgba(0, 0, 0, 0.911);
+}
