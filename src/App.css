@@ -143,7 +143,33 @@ font-family: var(--fontfamily);
   }
 }
 /* button end */
+/* image hover start */
 
+.allimg {
+  position: relative;
+  overflow: hidden;
+}
+
+.allimg img {
+  z-index: 1;
+  position: relative;
+}
+
+.desc1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: scale(0) rotate(90deg);
+  transition: transform 0.5s ease, background-color 0.6s ease;
+  z-index: 2;
+}
+.allimg:hover .desc1 {
+  transform: scale(1) rotate(0deg);
+  background-color: #180a1c4a;
+}
+
+
+/* image hover end */
 /* leanding page start */
 .landing_image{
   background-image: url("./Assets/Images/medium-shot-business-team-working-together_23-2149271705.jpg");

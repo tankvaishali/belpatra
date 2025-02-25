@@ -60,10 +60,11 @@
 /* Why choose start */
 .whychoose_bg{
   
-  /* background-image: url("../Images/whychooseus_enhanced.png"); */
+  background-image: url("../Images/bgimage.png");
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.192);
+  background-attachment: fixed;
+ 
 
 }
 
@@ -76,3 +77,89 @@
 }
 
 /* Why choose end */
+/* progress start */
+
+.product_high{
+  background-image: url("https://img.freepik.com/premium-photo/black-white-background-with-hexagons-word-hexagons-it_899894-32144.jpg");
+  box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.664);
+outline: 1px solid var(--pink);
+outline-offset: -20px;
+}
+.barshadow{
+  box-shadow: 0px 0px 15px rgba(36, 27, 122, 0.6),
+  0px 0px 25px rgba(120, 34, 131, 0.5),
+  0px 0px 35px rgba(229, 9, 127, 0.5);
+}
+/* progress end */
+/* testimonial start */
+.testimonial_bg  {
+  background-image: url("../Images/testi-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgtestimonial{
+  background-image: url('../Images/footercolor.jpg');
+  box-shadow: inset 0px 0px 1500px 100px rgba(0, 0, 0, 0.911);
+
+  /* background-color: rgb(51, 0, 66); */
+/* background-image: linear-gradient(to right,rgb(40, 0, 53),rgb(51, 0, 66),rgb(138, 57, 163),rgb(224, 161, 241),rgb(138, 57, 163),rgb(51, 0, 66),rgb(40, 0, 53)); */
+}
+.quotecolor{
+  color: rgba(246, 213, 255, 0.884);
+}
+.quotecolorbg{
+  background-color: rgba(246, 213, 255, 0.884);
+}
+.font_fletter {
+  font-size: 19px;
+  height: 45px;
+  width: 45px;
+}
+
+.testimonial_arrow .carousel-control-next {
+  right: -25.5%;
+  top: 99%;
+  height: 50px;
+  z-index: 10 !important;
+}
+
+.testimonial_arrow .carousel-control-prev {
+  left: 95.5% ;
+  top: 99%;
+  height: 50px;
+  z-index: 10 !important;
+
+}
+
+@media (min-width:992px) and (max-width:1201px) {
+  .testimonial_arrow .carousel-control-next {
+    right: -27.5%;
+  }
+
+  .testimonial_arrow .carousel-control-prev {
+    left: 97.5%;
+  }
+}
+
+@media (min-width:1200px) and (max-width:1200px) {
+  .testimonial_arrow .carousel-control-next {
+    right: -25.5%;
+  }
+
+  .testimonial_arrow .carousel-control-prev {
+    left: 95.5%;
+  }
+}
+
+@media screen and (min-width:1400px) {
+  .testimonial_arrow .carousel-control-next {
+    right: -23.5%;
+  }
+
+  .testimonial_arrow .carousel-control-prev {
+    left: 93.5%;
+  }
+}
+
+/* testimonial end */

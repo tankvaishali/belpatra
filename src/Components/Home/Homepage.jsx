@@ -5,6 +5,8 @@ import "../../Assets/Css/Homepagecss.css"
 import HomeAbout from './HomeAbout';
 import WhyChooseUs from './WhyChooseUs';
 import Logorun from '../Logorun';
+import Testimonial from './Testimonial';
+// import Progress from './Progress';
 
 function Homepage() {
   return (
@@ -12,7 +14,9 @@ function Homepage() {
 <HomeAbout/>
 <Homeservice/>
 <WhyChooseUs/>
+{/* <Progress/> */}
 <Logorun/>
+<Testimonial/>
 </>
   );
 }

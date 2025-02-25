@@ -53,8 +53,9 @@ const HomeAbout = () => {
           </div>
     </div>
     <div className="col-12 col-md-6 aboutcolor p-4 p-md-0">
-      <div className="h-100">
-        <img src={require("../../Assets/Images/successful-business-team-with-thumbs-up_13339-132023.jpg")} alt="" className='img-fluid w-100 h-100 border border-5 border-white object-fit-cover' />
+      <div className="h-100 allimg">
+        <div className="desc1"></div>
+        <img src={require("../../Assets/Images/aboutus_image.jpeg")} alt="" className='img-fluid w-100 h-100 border border-5 border-white object-fit-cover' />
       </div>
 </div>
 

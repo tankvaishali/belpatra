@@ -3,6 +3,7 @@ import { FaCheckCircle, FaHandsHelping, FaPills, FaShieldAlt, FaWrench } from 'r
 import Buttoncom from '../Buttoncom';
 import { TbCertificate } from 'react-icons/tb';
 import { BiWorld } from 'react-icons/bi';
+import Progress from './Progress';
 
 function WhyChooseUs() {
     let chooseus = [
@@ -168,6 +169,7 @@ function WhyChooseUs() {
         </div>
       </div>
       </div>
+      <Progress/>
     </div>
   );
 }
