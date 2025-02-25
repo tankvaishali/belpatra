@@ -41,7 +41,7 @@ const Progress = () => {
     <div className="container py-5">
         <div className="row">
         <div
-              className="col-12 col-md-6 p-0 m-0 order-1 order-lg-0"
+              className="col-12 col-md-6 p-0 m-0 "
               data-aos="fade-right"
               data-aos-duration="1600"
               data-aos-once="true"
@@ -57,7 +57,7 @@ const Progress = () => {
             </div>
 
             <div
-              className="col-12 col-md-6 p-0 m-0 product_high order-0 order-lg-1"
+              className="col-12 col-md-6 p-0 m-0 product_high "
               data-aos="fade-left"
               data-aos-duration="1600"
               data-aos-once="true"

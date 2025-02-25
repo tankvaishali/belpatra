@@ -186,11 +186,11 @@ font-family: var(--fontfamily);
 }
 @media screen and (max-width: 500px) {
   .landing_image{
-    height: 50vh;
+    height: 55vh;
   }
   .titlediv{
     text-shadow: 0 7px 8px #FF0000, 0 10px 10px #0000FF;
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 @media screen and (min-width: 551px) and (max-width: 768px) { 
