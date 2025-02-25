@@ -37,7 +37,7 @@ const Progress = () => {
       }, []);
   return (
    <>
-   <div className="mb-5 pb-5">
+   <div className="mb-5 pb-5 overflow-hidden">
     <div className="container py-5">
         <div className="row">
         <div
@@ -66,12 +66,15 @@ const Progress = () => {
               <h1
               className="titletext text-white pb-2"
               data-aos="zoom-in"
-              data-aos-delay="50"
-              data-aos-duration="1800"
+             data-aos-once="true"
+              data-aos-duration="1500"
             >
              Distinguished Solutions
             </h1>
-            <p className='pera text-secondary fw-medium'>
+            <p className='pera text-secondary fw-medium' data-aos="fade-up"
+              
+              data-aos-duration="1500"
+              data-aos-once="true">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere in, est nam a obcaecati autem impedit qui sequi eveniet ex. est nam a obcaecati autem impedit qui sequi eveniet ex.
             </p>
                 <div className="pt-1">

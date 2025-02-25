@@ -54,20 +54,22 @@ function Testimonial() {
               <h1
               className="titletext  pb-2"
               data-aos="zoom-in"
-              data-aos-delay="50"
-              data-aos-duration="1800"
+        data-aos-once="true"
+              data-aos-duration="1500"
             >
             What Our Clients Say
             </h1>
-                <div
+                <p
                   className="pt-2 pera text-secondary"
-                  
+                  data-aos="fade-up"
+        data-aos-once="true"
+              data-aos-duration="1500"
                 >
                   People are Choosing Us for  
                   Our Client Opinion Matters a Lot. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, ut!								 
-                </div>
+                </p>
               </div>
-            <div className='bgtestimonial text-white p-5 mt-4'>
+            <div className='bgtestimonial text-white p-5 mt-4' >
               <div id="carouselExampleAutoplaying" className="carousel slide testimonial_arrow" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   {testimonials.map((testimonial, index) => (
@@ -104,7 +106,7 @@ function Testimonial() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-6 p-0 m-0">
+          <div className="col-12 col-lg-6 p-0 m-0" >
             <div className='h-100  w-100 allimg'>
                 <div className="desc1"></div>
               <img src={require("../../Assets/Images/testimonial_image.jpeg")} alt="testimonial" className=' img-fluid w-100 h-100 object-fit-cover' />

@@ -39,7 +39,7 @@ function WhyChooseUs() {
         },
       ];
   return (
-    <div className='whychoose_bg py-5 pb-0'>
+    <div className='whychoose_bg py-5 pb-0 overflow-hidden'>
       <div className="container py-3 pb-0">
    
            
@@ -51,30 +51,40 @@ function WhyChooseUs() {
               <h1
               className="titletext  pb-2"
               data-aos="zoom-in"
-              data-aos-delay="50"
-              data-aos-duration="1800"
+            
+              data-aos-duration="1500"
+              data-aos-once="true"
+
             >
              Why Choose Us
             </h1>
                 <div
                   className="pt-2 pera "
-                  
+                  data-aos="fade-up"
+            
+              data-aos-duration="1500"
+              data-aos-once="true"
+
                 >
                   People are Choosing Us for  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, quidem.
                 </div>
               </div>
             </div>
             <div className="col-12 col-lg-6">
-            <div className="pera text-secondary py-3  fw-medium pt-4">
+            <p className="pera text-secondary py-3  fw-medium pt-4" data-aos="fade-left"
+              
+              data-aos-duration="1500"
+              data-aos-once="true"
+              >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tenetur debitis itaque voluptates officiis quia repudiandae suscipit asperiores totam beatae amet facere cum id voluptatum quidem expedita, corporis cupiditate architecto.acere cum id voluptatum quidem expedita, corporis cupiditate architecto.
-            </div>
+            </p>
             </div>
 
             <div className="col-12 col-lg-3 mt-3 mt-lg-5 ">
               <div
                 className="h-100 "
                 data-aos="fade-right"
-                data-aos-duration="1800"
+                data-aos-duration="1500"
                 data-aos-once="true"
               >
                 <div>
@@ -129,7 +139,7 @@ function WhyChooseUs() {
               <div
                 className="h-100 py-3 py-lg-0"
                 data-aos="fade-down"
-                data-aos-duration="1800"
+                data-aos-duration="1500"
                 data-aos-once="true"
               >
                 <img
@@ -143,7 +153,7 @@ function WhyChooseUs() {
               <div
                 className="h-100 d-flex flex-column justify-content-around"
                 data-aos="fade-left"
-                data-aos-duration="1800"
+                data-aos-duration="1500"
                 data-aos-once="true"
               >
                 {chooseus.map((x, i) => {

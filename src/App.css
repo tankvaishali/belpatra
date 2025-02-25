@@ -396,8 +396,7 @@ z-index: 1;
   animation-play-state: paused;
 }
 .designBox2 {
-  /* background-image: var(--bgcolor); */
-  /* backdrop-filter: blur(4px); */
+ 
   box-shadow: inset 0px 0px 1500px 250px rgba(0, 0, 0, 0.8);
 }
 

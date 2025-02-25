@@ -18,23 +18,24 @@ const Logorun = () => {
     ];
 
     return (
-        <div className="designbox my-5 shadow-lg">
+        <div className="designbox my-5 shadow-lg overflow-hidden">
             <div className="designBox2">
-                <div className="container my-5" style={{ fontFamily: "Montserrat, sans-serif" }}>
+                <div className="container " style={{ fontFamily: "Montserrat, sans-serif" }}>
                     <div className="row">
                         <div
                             className="col-lg-5 col-md-7 col-sm-9 col-11 m-auto"
                             data-aos="fade-right"
                             data-aos-duration="1500"
+                            data-aos-once="true"
                         >
                             <h1
-                                className="fw-bold lemon text-light text-capitalize my-5"
+                                className="fw-bold lemon text-light text-capitalize mt-5 fstyle"
                                 style={{ textShadow: "1px 1px black" }}
                             >
                                 Our esteemed Clients Through Excellence in{" "}
                                 <span style={{ color: "var(--pink)" }}> BELPATRA PHARMACHEM</span>
                             </h1>
-                            <p className="fs-6 text-light pera">
+                            <p className="fs-6 text-light pera pt-3">
                                 BELPATRA PHARMACHEM is an India-based entity that is acknowledged as one of
                                 the prominent companies in the global market is engaged in the field of
                                 pharmaceutical drug manufacturing and pharmaceutical drugs export.
@@ -42,8 +43,7 @@ const Logorun = () => {
                         </div>
                         <div
                             className="partners-logo-slider col-lg-6 col-md-8 col-sm-10 col-11 my-lg-0 my-5 py-2 py-lg-5"
-                            data-aos="fade-left"
-                            data-aos-duration="1500"
+                          
                         >
                             <ImageList variant="masonry" cols={2} gap={8} className="slide-track">
                                 {logos.concat(logos).map((item, index) => (

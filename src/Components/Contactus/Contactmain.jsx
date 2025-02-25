@@ -82,8 +82,12 @@ function Contactmain() {
 <div className='landing_image'> 
 <div className='text-white fstyle text-center d-flex align-items-center justify-content-center h-100 container'>
 <div>
-<div className='titlediv fw-medium'>Let's Become A Part Of Belpatra Pharmachem</div>
-<div className='pt-4 fstyle fw-medium fs-5'> <span ><Link to={"/"} className="text-decoration-none hoverlink text-white">Home</Link></span> / <span>Contact</span></div>
+<div className='titlediv fw-medium' data-aos="fade-up"
+        data-aos-once="true"
+              data-aos-duration="1500">Let's Become A Part Of Belpatra Pharmachem</div>
+<div className='pt-4 fstyle fw-medium fs-5' data-aos="fade-down"
+        data-aos-once="true"
+              data-aos-duration="1500"> <span ><Link to={"/"} className="text-decoration-none hoverlink text-white">Home</Link></span> / <span>Contact</span></div>
 </div>
 </div>
 </div>
@@ -92,7 +96,9 @@ function Contactmain() {
 
      <Contactus/>        
       <Logorun/>
-<div className='container py-5'>
+<div className='container py-5' data-aos="zoom-in"
+        data-aos-once="true"
+              data-aos-duration="1500">
 <div className=' py-3'>
 <iframe title='google map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29752.700882695055!2d72.8291723!3d21.228374199999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fdfc718eb4b%3A0xcf5efb27dfe048c5!2sBelpatra%20Pharmachem!5e0!3m2!1sen!2sin!4v1740025356298!5m2!1sen!2sin" width="100%" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='shadow-lg'></iframe>
 </div>

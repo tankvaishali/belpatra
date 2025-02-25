@@ -71,27 +71,13 @@ seterrmsg({...errmsg})
   }
   return(
     <>
-
-
-
-
-
-
-
-
-
-
-
-    <div className='contactus_back mt-5'ddata-aos="zoom-in" data-aos-delay="50"
-    data-aos-duration="1500">
-
-    </div>
    <div className='container py-5'>
     <div className='row g-4 py-4'>
     <div className='col-12 col-lg-4  pt-2 '>
 <div className="h-100 d-flex flex-column justify-content-between ">
-<div className='card  contactbck_color shadow border-0 p-2  py-4' data-aos="zoom-in" data-aos-delay="50"
-    data-aos-duration="1500">
+<div className='card  contactbck_color shadow border-0 p-2  py-4' data-aos="fade-down" data-aos-delay="0"
+    data-aos-duration="1500"
+    data-aos-once="true">
          <div className='text-center'>
       <div className='contactusicon rounded-circle d-flex align-items-center justify-content-center align-content-center  text-white mx-auto'>
       <HiBuildingOffice2 />
@@ -105,8 +91,9 @@ seterrmsg({...errmsg})
       
        
       </div>
-      <div className='card  contactbck_color shadow border-0 p-2 my-4  py-4' data-aos="zoom-in" data-aos-delay="50"
-    data-aos-duration="1500">
+      <div className='card  contactbck_color shadow border-0 p-2 my-4  py-4' data-aos="fade-down" data-aos-delay="200"
+    data-aos-duration="1500"
+    data-aos-once="true">
          <div className='text-center'>
       <div className='contactusicon rounded-circle d-flex align-items-center justify-content-center align-content-center  text-white mx-auto'>
       <TbPhoneCall />
@@ -121,8 +108,9 @@ seterrmsg({...errmsg})
       
        
       </div>
-      <div className='card  contactbck_color shadow border-0 p-2  py-4' data-aos="zoom-in" data-aos-delay="50"
-    data-aos-duration="1500">
+      <div className='card  contactbck_color shadow border-0 p-2  py-4' data-aos="fade-down" data-aos-delay="400"
+    data-aos-duration="1500"
+    data-aos-once="true">
         <div className='text-center'>
       <div className='contactusicon rounded-circle d-flex align-items-center justify-content-center align-content-center  text-white mx-auto' >
       <TfiEmail />
@@ -141,14 +129,17 @@ seterrmsg({...errmsg})
      <div className='col-12 col-lg-8  '>
   <div  className='h-100 d-flex flex-column justify-content-between '>
   <h2 className='text-start fstyle my-2 titletext ' data-aos="zoom-in" data-aos-delay="50"
-    data-aos-duration="1500">
+    data-aos-duration="1500"
+    data-aos-once="true">
   Get In Touch
    </h2>
-   <div className='pera text-secondary my-1 mb-2' data-aos="zoom-in" data-aos-delay="50"
-    data-aos-duration="1500">The page actually lists out what people will get when they ask a question, including a we will try for a short response time of 24 hours or fewer.
+   <div className='pera text-secondary my-1 mb-2' data-aos="fade-up" data-aos-delay="50"
+    data-aos-duration="1500"
+    data-aos-once="true">The page actually lists out what people will get when they ask a question, including a we will try for a short response time of 24 hours or fewer.
     </div>
-<div className='contactbck_color shadow rounded' data-aos="zoom-in" data-aos-delay="50"
-    data-aos-duration="1500">
+<div className='contactbck_color shadow rounded' data-aos="fade-up" data-aos-delay="50"
+    data-aos-duration="1500"
+    data-aos-once="true">
 <form className='p-5 my-3'>
   <label htmlFor='text' className='d-block'> First Name</label>
   <input type='text' name='name' onChange={getdata} value={obj?.name} placeholder='Type Your First Name' className='w-100 p-2  mt-2 text-secondary border border-secondary-substle form-control' />
