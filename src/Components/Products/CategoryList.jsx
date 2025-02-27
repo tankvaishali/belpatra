@@ -9,10 +9,10 @@ export const CategoryListItem = [
         inner_Category: [
             {
                 id: "Analgesics(1)",
-                Category: "Tapentadol hydrochloride tablets 50 mg",
+                Category: "Tapentadol Hydrochloride Tablets 50 mg",
                 EnquiryForm: [
                     {
-                        tittle: "Tapentadol hydrochloride tablets 50 mg",
+                        tittle: "Tapentadol Hydrochloride Tablets 50 mg",
                         content: "1 x 10 Tablets",
                     }
                 ]
@@ -27,40 +27,40 @@ export const CategoryListItem = [
         inner_Category: [
             {
                 id: "Analgesics Anti Pyretics(1)",
-                Category: "Paediatric Paracetamol Oral Suspension BP 120 mg/ 5ml",
+                Category: "Paediatric Paracetamol Oral Suspension BP 120 mg / 5ml",
                 EnquiryForm: [
                     {
-                        tittle: "Paediatric Paracetamol Oral Suspension BP 120 mg/ 5ml",
+                        tittle: "Paediatric Paracetamol Oral Suspension BP 120 mg / 5ml",
                         content: "1 Bottle X 60 ml",
                     }
                 ]
             },
             {
                 id: "Analgesics Anti Pyretics(2)",
-                Category: "Paediatric Paracetamol Oral Suspension BP 125 mg/ 5ml",
+                Category: "Paediatric Paracetamol Oral Suspension BP 125 mg / 5ml",
                 EnquiryForm: [
                     {
-                        tittle: "Paediatric Paracetamol Oral Suspension BP 125 mg/ 5ml",
+                        tittle: "Paediatric Paracetamol Oral Suspension BP 125 mg / 5ml",
                         content: "1 Bottle X 60 ml",
                     }
                 ]
             },
             {
                 id: "Analgesics Anti Pyretics(3)",
-                Category: "Paediatric Paracetamol Oral Suspension BP 250mg/ 5ml",
+                Category: "Paediatric Paracetamol Oral Suspension BP 250mg / 5ml",
                 EnquiryForm: [
                     {
-                        tittle: "Paediatric Paracetamol Oral Suspension BP 250mg/ 5ml",
+                        tittle: "Paediatric Paracetamol Oral Suspension BP 250mg / 5ml",
                         content: "1 Bottle X 60 ml",
                     }
                 ]
             },
             {
                 id: "Analgesics Anti Pyretics(4)",
-                Category: "Paracetamol 1000mg/ 100ml (Injection)",
+                Category: "Paracetamol 1000mg / 100ml (Injection)",
                 EnquiryForm: [
                     {
-                        tittle: "Paracetamol 1000mg/ 100ml (Injection)",
+                        tittle: "Paracetamol 1000mg / 100ml (Injection)",
                         content: "Infusion",
                     }
                 ]
@@ -3899,150 +3899,6 @@ export const CategoryListItem = [
                 EnquiryForm: [
                     {
                         tittle: "Aspirin 75 mg and Clopidogrel 75 mg and Rosuvastatin 10 mg",
-                        content: "1 x 10 Tablets",
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        id: "Lipid Lowering Agents Anti Lipemic",
-        name: "Lipid Lowering Agents / Anti Lipemic",
-        inner_Category: [
-            {
-                id: "Lipid Lowering Agents Anti Lipemic(2)",
-                Category: "Aspirin Tablets BP",
-                EnquiryForm: [
-                    {
-                        tittle: "Aspirin Tablets BP",
-                        content: "1 x 10 Tablets",
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        id: "Lipid Lowering Agents Anti Lipemic",
-        name: "Lipid Lowering Agents / Anti Lipemic",
-        inner_Category: [
-            {
-                id: "Lipid Lowering Agents Anti Lipemic(3)",
-                Category: "Atorvastatin 5 mg",
-                EnquiryForm: [
-                    {
-                        tittle: "Atorvastatin 5 mg",
-                        content: "1 x 10 Tablets",
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        id: "Lipid Lowering Agents Anti Lipemic",
-        name: "Lipid Lowering Agents / Anti Lipemic",
-        inner_Category: [
-            {
-                id: "Lipid Lowering Agents Anti Lipemic(2)",
-                Category: "Aspirin Tablets BP",
-                EnquiryForm: [
-                    {
-                        tittle: "Aspirin Tablets BP",
-                        content: "1 x 10 Tablets",
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        id: "Lipid Lowering Agents Anti Lipemic",
-        name: "Lipid Lowering Agents / Anti Lipemic",
-        inner_Category: [
-            {
-                id: "Lipid Lowering Agents Anti Lipemic(2)",
-                Category: "Aspirin Tablets BP",
-                EnquiryForm: [
-                    {
-                        tittle: "Aspirin Tablets BP",
-                        content: "1 x 10 Tablets",
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        id: "Lipid Lowering Agents Anti Lipemic",
-        name: "Lipid Lowering Agents / Anti Lipemic",
-        inner_Category: [
-            {
-                id: "Lipid Lowering Agents Anti Lipemic(2)",
-                Category: "Aspirin Tablets BP",
-                EnquiryForm: [
-                    {
-                        tittle: "Aspirin Tablets BP",
-                        content: "1 x 10 Tablets",
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        id: "Lipid Lowering Agents Anti Lipemic",
-        name: "Lipid Lowering Agents / Anti Lipemic",
-        inner_Category: [
-            {
-                id: "Lipid Lowering Agents Anti Lipemic(2)",
-                Category: "Aspirin Tablets BP",
-                EnquiryForm: [
-                    {
-                        tittle: "Aspirin Tablets BP",
-                        content: "1 x 10 Tablets",
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        id: "Lipid Lowering Agents Anti Lipemic",
-        name: "Lipid Lowering Agents / Anti Lipemic",
-        inner_Category: [
-            {
-                id: "Lipid Lowering Agents Anti Lipemic(2)",
-                Category: "Aspirin Tablets BP",
-                EnquiryForm: [
-                    {
-                        tittle: "Aspirin Tablets BP",
-                        content: "1 x 10 Tablets",
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        id: "Lipid Lowering Agents Anti Lipemic",
-        name: "Lipid Lowering Agents / Anti Lipemic",
-        inner_Category: [
-            {
-                id: "Lipid Lowering Agents Anti Lipemic(2)",
-                Category: "Aspirin Tablets BP",
-                EnquiryForm: [
-                    {
-                        tittle: "Aspirin Tablets BP",
-                        content: "1 x 10 Tablets",
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        id: "Lipid Lowering Agents Anti Lipemic",
-        name: "Lipid Lowering Agents / Anti Lipemic",
-        inner_Category: [
-            {
-                id: "Lipid Lowering Agents Anti Lipemic(2)",
-                Category: "Aspirin Tablets BP",
-                EnquiryForm: [
-                    {
-                        tittle: "Aspirin Tablets BP",
                         content: "1 x 10 Tablets",
                     }
                 ]

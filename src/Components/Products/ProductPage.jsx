@@ -51,8 +51,12 @@ function ProductPage() {
             <div className='landing_ProductPageimage'>
                 <div className='text-white fstyle text-center d-flex align-items-center justify-content-center h-100 container'>
                     <div>
-                        <div className='titlediv fw-medium'>Advanced Pharmaceutical Solutions for Better Healthcare</div>
-                        <div className='pt-4 fstyle fw-medium fs-5'> <span ><Link to={"/"} className="text-decoration-none hoverlink text-white">Home</Link></span> / <span>Product</span></div>
+                        <div className='titlediv fw-medium' data-aos="fade-up"
+                            data-aos-once="true"
+                            data-aos-duration="1500">Advanced Pharmaceutical Solutions For Better Healthcare</div>
+                        <div className='pt-4 fstyle fw-medium fs-5' data-aos="fade-down"
+                            data-aos-once="true"
+                            data-aos-duration="1500"> <span ><Link to={"/"} className="text-decoration-none hoverlink text-white">Home</Link></span> / <span>Product</span></div>
                     </div>
                 </div>
             </div>
@@ -61,7 +65,7 @@ function ProductPage() {
                 <div className='container py-5'>
 
                     <div>
-                        <h1 className="titletext fstyle text-center mx-auto text-white" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800">
+                        <h1 className="titletext pb-2 fstyle text-center mx-auto text-white" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800" data-aos-once="true">
                             Medical Essentials
                         </h1>
                     </div>
@@ -81,15 +85,20 @@ function ProductPage() {
                     </Slider>
 
                     <div>
-                        <h1 className="titletext fstyle text-center mx-auto text-white" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800">
+                        <h1 className="titletext pb-2 fstyle text-center mx-auto text-white" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800" data-aos-once="true">
                             Our Products
                         </h1>
+                        <p className="pera text-secondary py-3 text-center fw-medium pt-4" data-aos="zoom-in"
+                            data-aos-duration="1500"
+                            data-aos-once="true">
+                            Comprehensive Range of Prescription & Over-the-Counter Medications for All Your Healthcare Needs.
+                        </p>
                     </div>
 
                     <div className='row my-5'>
                         {CategoryListItem.map((item, i) => (
                             <div className='col-12 col-lg-3 col-md-4 mb-4 d-flex' key={i}>
-                                <Link className='productbox text-decoration-none text-dark d-block text-center p-3 w-100 h-100 d-flex align-items-center justify-content-center' to={`/product/${item.id}`}>
+                                <Link className='productbox text-decoration-none text-dark d-block text-center p-3 w-100 h-100 d-flex align-items-center justify-content-center' to={`/product/${item.id}`} data-aos="fade-up" data-aos-delay="50" data-aos-duration="1800" data-aos-once="true">
                                     <div className='pera productTittle fw-bold'>{item.name}</div>
                                 </Link>
                             </div>
@@ -98,7 +107,7 @@ function ProductPage() {
                 </div>
             </div>
 
-            <Faq/>
+            <Faq />
         </>
     );
 }
