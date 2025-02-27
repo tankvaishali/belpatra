@@ -6,6 +6,7 @@ import Aboutsec from './Aboutsec';
 import Team from './Team';
 import Mision from './Mision';
 import Buttoncom from '../Buttoncom';
+import Value from './Value';
 
 
 function Aboutus() {
@@ -42,6 +43,7 @@ function Aboutus() {
                 </div>
             </div>
             <Mision/>
+            <Value/>
         </>
     );
 }

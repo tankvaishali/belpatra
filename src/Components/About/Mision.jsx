@@ -33,6 +33,7 @@ function Mision() {
                 <div className="pera pt-1">
                 Our mission is to offer high-quality healthcare services to every individual by following our core values of integrity, dedication, and ethics.
                 </div>
+               
               </div>
             </div>
             <div className="col-12 col-lg-6 p-3 p-lg-5 m-0 aboutus_bgcolor" data-aos="fade-left" data-aos-duration="1800" data-aos-once="true">
@@ -115,6 +116,9 @@ function Mision() {
                     {" "}
                     All our products are tested on multiple parameters for the assurance of quality and only those products that conform to the desired standards are made available to the customers.
                   </div>
+                  <div className="pera pt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni suscipit asperiores veritatis deserunt ratione hic necessitatibus, maiores cumque obcaecati omnis quisquam quos commodi repellat exercitationem. Assumenda porro non aut cumque? maiores cumque obcaecati omnis quisquam quos commodi repellat exercitationem. Assumenda porro non aut cumque?
+                </div>
                   <div className="pt-3 pera">
                     <p className="py-0  text-capitalize">
                       <span className="pe-2 fs-5">

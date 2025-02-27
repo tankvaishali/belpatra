@@ -184,7 +184,7 @@
 /* team end */
 
 /* about contact start */
-.contactdetail_bg{
+.contactdetail_bg ,.value_bg{
   background-image: url("https://belpatrapharmachem.com/wp-content/uploads/2022/06/features.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -193,3 +193,83 @@
   box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.856);
 }
 /* about contact end */
+
+/* value start */
+.value_bg{
+  background-image: url("https://vip-go.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/shutterstock_407554567.jpg?w=750");
+ 
+  box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.678);
+}
+.news-section {
+  padding: 4rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.news-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+}
+
+.news-header {
+  padding-top: 1rem;
+  color: var(--pink);
+}
+
+.news-header h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+
+
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.news-item {
+  backdrop-filter: blur(15px) !important;
+  background-color: rgba(187, 187, 187, 0.151) !important;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.4s ease !important;
+}
+
+.news-item:hover {
+  transform: translateX(10px) !important;
+}
+
+
+@media (max-width: 1024px) {
+  .news-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .news-header h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .news-section {
+    padding: 2rem 1rem;
+  }
+
+  .news-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .news-item {
+    padding: 1.5rem;
+  }
+}
+/* value end */
