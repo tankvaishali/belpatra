@@ -13,6 +13,7 @@ function Homepage() {
   return (
 <>
 <HomeCarouselcom/>
+
 <HomeAbout/>
 <Homeservice/>
 <WhyChooseUs/>
