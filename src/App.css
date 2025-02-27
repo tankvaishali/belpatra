@@ -171,7 +171,7 @@ font-family: var(--fontfamily);
 
 /* image hover end */
 /* leanding page start */
-.landing_image,.landing_aboutimage{
+.landing_image,.landing_aboutimage,.landing_ProductPageimage{
   background-image: url("https://img.freepik.com/free-photo/colleagues-working-together-call-center-office_23-2149256064.jpg?t=st=1740484421~exp=1740488021~hmac=c79ed31e35e1f2ee8d0ffe28acefc0f6b7b6682a5eac3068f1ea383bd485ab40&w=1060");
   background-position: center;
   background-repeat: no-repeat;
@@ -184,7 +184,10 @@ font-family: var(--fontfamily);
   background-image: url("./Assets/Images/medium-shot-business-team-working-together_23-2149271705.jpg");
   background-position: bottom center;
 }
-
+.landing_ProductPageimage{
+  background-image: url("https://img.freepik.com/free-photo/middle-age-woman-with-her-assistant-working-research-lab-microbiology-test-tubes_482257-34452.jpg?t=st=1740633136~exp=1740636736~hmac=f3d6856b7ac24e05431e9a4d90b0d55576b3e6588356f1a54f01bf996c376240&w=1800");
+  background-position: center center;
+}
 .titlediv{
   text-shadow: 0 7px 8px #FF0000, 0 10px 10px #0000FF;
   font-size: 55px;

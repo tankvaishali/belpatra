@@ -4,8 +4,8 @@ import { IoCheckmarkDoneSharp } from 'react-icons/io5';
 function Mision() {
   return (
     <div>
-         <div className="py-lg-3 overflow-hidden">
-        <div className="container ">
+         <div className="py-lg-5 overflow-hidden">
+        <div className="container py-4">
           <div className="row  ">
             <div
               className="col-12 col-lg-6 p-3 pt-1 p-md-5 m-0 "
