@@ -27,7 +27,7 @@ function ProductInnerForm() {
                     <div className='text-center'>
                         {
                             enquiryData.map((item, index) => (
-                                <div className='text-center' key={index}>
+                                <div className='text-center' data-aos="fade-up" data-aos-delay="50" data-aos-duration="1800" data-aos-once="true" key={index}>
                                     <h4 className='fw-bold titletext text-center w-100 border-0'>{item.tittle}</h4>
                                     <p className='pera my-3'>{item.content}</p>
                                 </div>
@@ -36,7 +36,7 @@ function ProductInnerForm() {
 
                         {
                             ProenquiryData.map((item, index) => (
-                                <div className='text-center' key={index}>
+                                <div className='text-center' data-aos="fade-up" data-aos-delay="50" data-aos-duration="1800" data-aos-once="true" key={index}>
                                     <h4 className='fw-bold titletext text-center w-100 border-0'>{item.tittle}</h4>
                                     <p className='pera my-3'>{item.content}</p>
                                 </div>
@@ -45,8 +45,8 @@ function ProductInnerForm() {
                     </div>
 
                     <div className='my-4'>
-                        <h3 className="text-center" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800">
-                            <span className="titletext">Make An Enquiry</span>
+                        <h3 className="text-center" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800" data-aos-once="true">
+                            <span className="titletext pb-2">Make An Enquiry</span>
                         </h3>
                         <div className='d-flex justify-content-center align-items-center mt-4'>
                             <div className='mainform row'>
