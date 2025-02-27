@@ -34,6 +34,7 @@
   border-bottom: 1.5px solid var(--pink);
 }
 
+
 .animated-image {
   animation: upDown 5s ease-in-out infinite;
   display: block;
@@ -124,7 +125,6 @@
   left: 50%;
   width: 0;
   height: 0;
-
   background-image: var(--bgcolor);
   border-radius: 50%;
   transform: translate(-50%, -50%);
@@ -421,7 +421,6 @@
 .designBox2 {
   box-shadow: inset 0px 0px 1500px 250px rgba(0, 0, 0, 0.8);
 }
-
 .designbox {
   background-image: url("./Assets/Images/footercolor.jpg");
   background-repeat: no-repeat;

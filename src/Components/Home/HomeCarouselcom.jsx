@@ -6,24 +6,24 @@ const slidesData = [
         headlineSecondLine: "Change1",
         sublineFirstLine: "Nihil sub sole",
         sublineSecondLine: "novum",
-        bgImg: require('../../Assets/Images/friendly-atmosphere-group-young-freelancers-office-have-conversation-smiling_146671-13630.jpg'),
-        rectImg: require('../../Assets/Images/jpeg_enhanced_enhanced.jpg')
+        bgImg: "https://media.post.rvohealth.io/wp-content/uploads/2020/08/Chamomile_and_Homeopathic_Medicine-1200x628-facebook-1200x628.jpg",
+        rectImg: require('../../Assets/Images/Slide2.jpg')
     },
     {
         headlineFirstLine: "BlePatra2",
         headlineSecondLine: "Change2",
         sublineFirstLine: "Il n'y a rien de neuf sous",
         sublineSecondLine: "le soleil",
-        bgImg: require('../../Assets/Images/contactus.jpg'),
-        rectImg: require('../../Assets/Images/img2.jpg')
+        bgImg: "https://www.popsci.com/wp-content/uploads/2022/12/21/sick-kid-cold-medicine.jpg?quality=85",
+        rectImg: require('../../Assets/Images/Slide3.jpg')
     },
     {
         headlineFirstLine: "BlePatra3",
         headlineSecondLine: "Change3",
         sublineFirstLine: "Τίποτα καινούργιο κάτω από",
         sublineSecondLine: "τον ήλιο",
-        bgImg: require('../../Assets/Images/img3.jpg'),
-        rectImg: require('../../Assets/Images/home-version-three-revenue-traffiic-icon1.png')
+        bgImg: "https://t4.ftcdn.net/jpg/04/20/03/81/360_F_420038128_w7tD7qjkSivmADw1q79bNQK1OqkqcbQP.jpg",
+        rectImg: require('../../Assets/Images/Slide4.jpg')
     }
 ];
 
