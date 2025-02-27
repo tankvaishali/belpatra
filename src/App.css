@@ -9,31 +9,30 @@
   --violet: rgb(36, 27, 122);
   --purple: rgb(120, 34, 131);
   --pink: rgb(229, 9, 127);
-  --bgcolor: linear-gradient(to right, var(--violet), var(--pink) ,var(--pink));
---fontfamily:"Lora", serif;
+  --bgcolor: linear-gradient(to right, var(--violet), var(--pink), var(--pink));
+  --fontfamily: "Lora", serif;
 }
 .pinkcolor {
   color: var(--pink);
 }
-.purplecolor{
+.purplecolor {
   color: var(--purple);
 }
-.bgcolor{
+.bgcolor {
   background-image: var(--bgcolor);
 }
-.fstyle{
+.fstyle {
   font-family: var(--fontfamily);
 }
-.pera{
+.pera {
   font-size: 15px !important;
 }
 .titletext {
   font-family: var(--fontfamily);
   font-weight: 500;
-width:fit-content;
-border-bottom: 1.5px solid var(--pink); 
+  width: fit-content;
+  border-bottom: 1.5px solid var(--pink);
 }
-
 
 .animated-image {
   animation: upDown 5s ease-in-out infinite;
@@ -77,8 +76,12 @@ border-bottom: 1.5px solid var(--pink);
   padding: 12px 40px;
   font-size: 20px;
   color: #fff;
-font-family: var(--fontfamily);
-  background-image: linear-gradient(rgb(36, 27, 122),rgb(120, 34, 131),rgb(229, 9, 127));
+  font-family: var(--fontfamily);
+  background-image: linear-gradient(
+    rgb(36, 27, 122),
+    rgb(120, 34, 131),
+    rgb(229, 9, 127)
+  );
   border-radius: 40px;
   overflow: hidden;
   border: none;
@@ -168,10 +171,11 @@ font-family: var(--fontfamily);
   background-color: #180a1c4a;
 }
 
-
 /* image hover end */
 /* leanding page start */
-.landing_image,.landing_aboutimage,.landing_ProductPageimage{
+.landing_image,
+.landing_aboutimage,
+.landing_ProductPageimage {
   background-image: url("https://img.freepik.com/free-photo/colleagues-working-together-call-center-office_23-2149256064.jpg?t=st=1740484421~exp=1740488021~hmac=c79ed31e35e1f2ee8d0ffe28acefc0f6b7b6682a5eac3068f1ea383bd485ab40&w=1060");
   background-position: center;
   background-repeat: no-repeat;
@@ -180,44 +184,43 @@ font-family: var(--fontfamily);
   box-shadow: inset 0px 0px 1000px 1500px rgba(0, 0, 0, 0.541);
 }
 
-.landing_aboutimage{
+.landing_aboutimage {
   background-image: url("./Assets/Images/medium-shot-business-team-working-together_23-2149271705.jpg");
   background-position: bottom center;
 }
-.landing_ProductPageimage{
-  background-image: url("https://img.freepik.com/free-photo/middle-age-woman-with-her-assistant-working-research-lab-microbiology-test-tubes_482257-34452.jpg?t=st=1740633136~exp=1740636736~hmac=f3d6856b7ac24e05431e9a4d90b0d55576b3e6588356f1a54f01bf996c376240&w=1800");
+.landing_ProductPageimage {
+  background-image: url("../src/Assets/Images/upscalemedia-transformed.jpg");
   background-position: center center;
 }
-.titlediv{
-  text-shadow: 0 7px 8px #FF0000, 0 10px 10px #0000FF;
+.titlediv {
+  text-shadow: 0 7px 8px #ff0000, 0 10px 10px #0000ff;
   font-size: 55px;
 }
 @media screen and (max-width: 500px) {
-  .landing_image{
+  .landing_image {
     height: 55vh;
   }
-  .titlediv{
-    text-shadow: 0 7px 8px #FF0000, 0 10px 10px #0000FF;
+  .titlediv {
+    text-shadow: 0 7px 8px #ff0000, 0 10px 10px #0000ff;
     font-size: 30px;
   }
 }
-@media screen and (min-width: 551px) and (max-width: 768px) { 
-  .landing_image{
+@media screen and (min-width: 551px) and (max-width: 768px) {
+  .landing_image {
     height: 80vh;
   }
-  .titlediv{
-    text-shadow: 0 7px 8px #FF0000, 0 10px 10px #0000FF;
+  .titlediv {
+    text-shadow: 0 7px 8px #ff0000, 0 10px 10px #0000ff;
     font-size: 45px;
   }
 }
-.hoverlink{
+.hoverlink {
   transition: all 0.2s ease-in-out;
 }
 .hoverlink:hover {
-color: var(--pink) !important;
+  color: var(--pink) !important;
 }
 /* leanding page end */
-
 
 /* header start */
 /* Logo Styling */
@@ -244,37 +247,50 @@ color: var(--pink) !important;
   font-size: 18px;
   font-weight: bold;
   color: black; /* Default text color is black */
-  background-image: linear-gradient(to right, var(--purple), var(--pink) 50%, #fff 50%);
+  background-image: linear-gradient(
+    to right,
+    var(--purple),
+    var(--pink) 50%,
+    #fff 50%
+  );
   background-size: 200% 100%;
   background-position: -100%; /* Gradient hidden initially */
   -webkit-background-clip: text;
   -webkit-text-fill-color: black; /* Default black text before hover */
-  transition: 
-    background-position 1s ease, /* Slow motion for gradient */
-    -webkit-text-fill-color 0.5s ease; /* Smooth transition for text color */
+  transition: background-position 1s ease,
+    /* Slow motion for gradient */ -webkit-text-fill-color 0.5s ease; /* Smooth transition for text color */
   position: relative;
   display: inline-block;
 }
 
 #primary li a::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -3px; /* Positions the underline just below the text */
   left: 0;
   height: 3px;
   width: 0;
-  background-image: linear-gradient(to left, var(--violet), var(--pink) ,var(--pink));
+  background-image: linear-gradient(
+    to left,
+    var(--violet),
+    var(--pink),
+    var(--pink)
+  );
 
   transition: width 1s ease; /* Smooth underline expansion */
 }
 
 /* On hover, change the text fill and reveal the gradient */
-#primary li a:hover ,#primary .nav-link.active,#primary .nav-link:focus{
+#primary li a:hover,
+#primary .nav-link.active,
+#primary .nav-link:focus {
   -webkit-text-fill-color: transparent; /* Text turns transparent to reveal the gradient */
   background-position: 0%; /* Reveals the gradient slowly from right to left */
 }
 
-#primary li a:hover::before,#primary .nav-link.active::before,#primary .nav-link:focus::before {
+#primary li a:hover::before,
+#primary .nav-link.active::before,
+#primary .nav-link:focus::before {
   width: 100%; /* Expands the underline slowly from left to right */
 }
 
@@ -286,15 +302,14 @@ color: var(--pink) !important;
 /* header end */
 
 /* footer start */
-.footer_bg{
+.footer_bg {
   background-image: url("./Assets/Images/footerbackground.jpg");
   background-repeat: no-repeat;
-background-size: cover;
-z-index: 1;
+  background-size: cover;
+  z-index: 1;
 }
-.footerpt{
+.footerpt {
   padding-top: 100px;
-
 }
 .footericon {
   border: 2px solid white;
@@ -304,7 +319,6 @@ z-index: 1;
 }
 
 .footericon:hover {
-  
   border-radius: 50%;
   border: 2px solid white;
 }
@@ -312,24 +326,26 @@ z-index: 1;
 .facebookicon {
   background-color: #1877f2 !important;
 }
-.facebookicon:hover{
+.facebookicon:hover {
   background-color: white !important;
   color: #1877f2 !important;
   text-shadow: 0 0 5px #1877f2 !important;
   box-shadow: 0 0 15px 5px #1877f2 !important;
 }
 .instaicon {
-  background-image: linear-gradient(180deg,
-      #833ab4,
-      #c13584,
-      #e1306c,
-      #f77737,
-      #ffdc80);
+  background-image: linear-gradient(
+    180deg,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #f77737,
+    #ffdc80
+  );
 }
-.instaicon:hover{
+.instaicon:hover {
   background-color: white !important;
   color: #e1306c !important;
-  background-image:none !important;
+  background-image: none !important;
   text-shadow: 0 0 5px #e1306c !important;
   box-shadow: 0 0 15px 5px #e1306c !important;
 }
@@ -337,7 +353,7 @@ z-index: 1;
 .linkicon {
   background-color: #0077b5 !important;
 }
-.linkicon:hover{
+.linkicon:hover {
   background-color: white !important;
   color: #0077b5 !important;
   text-shadow: 0 0 5px #0077b5 !important;
@@ -345,41 +361,40 @@ z-index: 1;
 }
 
 .twittericon {
-  background-color: #1DA1F2 !important;
+  background-color: #1da1f2 !important;
 }
-.twittericon:hover{
+.twittericon:hover {
   background-color: white !important;
-  color: #1DA1F2 !important;
-  text-shadow: 0 0 5px #1DA1F2 !important;
-  box-shadow: 0 0 15px 5px #1DA1F2 !important;
+  color: #1da1f2 !important;
+  text-shadow: 0 0 5px #1da1f2 !important;
+  box-shadow: 0 0 15px 5px #1da1f2 !important;
 }
-.linkhover{
+.linkhover {
   color: white;
 }
-.linkhover:hover{
+.linkhover:hover {
   color: rgb(194, 194, 194);
 }
-.footerlinkicon{
+.footerlinkicon {
   transform: scale(1);
-  transition: all 0.3s ease-in-out;  
+  transition: all 0.3s ease-in-out;
 }
-.linkhover:hover .footerlinkicon{
+.linkhover:hover .footerlinkicon {
   transform: scale(1.1) !important;
 }
 
 /* footer end */
 
-
 /* logorun start */
 
 @keyframes scroll {
   0% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
 
   100% {
-      transform: translateY(calc(-100px * 7));
-      /* Adjust based on number of slides and height */
+    transform: translateY(calc(-100px * 7));
+    /* Adjust based on number of slides and height */
   }
 }
 
@@ -404,12 +419,11 @@ z-index: 1;
   animation-play-state: paused;
 }
 .designBox2 {
- 
   box-shadow: inset 0px 0px 1500px 250px rgba(0, 0, 0, 0.8);
 }
 
 .designbox {
-  background-image: url('./Assets/Images/footercolor.jpg');
+  background-image: url("./Assets/Images/footercolor.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

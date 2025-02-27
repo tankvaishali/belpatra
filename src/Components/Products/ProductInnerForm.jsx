@@ -29,7 +29,7 @@ function ProductInnerForm() {
                             enquiryData.map((item, index) => (
                                 <div className='text-center' key={index}>
                                     <h4 className='fw-bold titletext text-center w-100 border-0'>{item.tittle}</h4>
-                                    <p className='my-3'>{item.content}</p>
+                                    <p className='pera my-3'>{item.content}</p>
                                 </div>
                             ))
                         }
@@ -38,7 +38,7 @@ function ProductInnerForm() {
                             ProenquiryData.map((item, index) => (
                                 <div className='text-center' key={index}>
                                     <h4 className='fw-bold titletext text-center w-100 border-0'>{item.tittle}</h4>
-                                    <p className='my-3'>{item.content}</p>
+                                    <p className='pera my-3'>{item.content}</p>
                                 </div>
                             ))
                         }

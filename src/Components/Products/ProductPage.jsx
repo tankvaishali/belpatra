@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import "../../Assets/Css/ProductPage.css";
 import { ProductList } from './ProductList';
 import Slider from 'react-slick';
+import Faq from './Faq';
 
 const settings = {
     dots: false,
@@ -60,7 +61,7 @@ function ProductPage() {
                 <div className='container py-5'>
 
                     <div>
-                        <h1 className="titletext text-center mx-auto text-white" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800">
+                        <h1 className="titletext fstyle text-center mx-auto text-white" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800">
                             Medical Essentials
                         </h1>
                     </div>
@@ -73,14 +74,14 @@ function ProductPage() {
                                     <div className="d-flex align-items-center justify-content-center" style={{ height: "60px" }}>
                                         <img src={item.image} className='img-secondary' style={{ width: "40px", height: "40px" }} alt="" />
                                     </div>
-                                    <div className='imageTittle fw-bold fs-6 text-secondary mt-3'>{item.name}</div>
+                                    <div className='pera imageTittle fw-bold mt-3'>{item.name}</div>
                                 </Link>
                             </div>
                         ))}
                     </Slider>
 
                     <div>
-                        <h1 className="titletext text-center mx-auto text-white" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800">
+                        <h1 className="titletext fstyle text-center mx-auto text-white" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800">
                             Our Products
                         </h1>
                     </div>
@@ -89,13 +90,15 @@ function ProductPage() {
                         {CategoryListItem.map((item, i) => (
                             <div className='col-12 col-lg-3 col-md-4 mb-4 d-flex' key={i}>
                                 <Link className='productbox text-decoration-none text-dark d-block text-center p-3 w-100 h-100 d-flex align-items-center justify-content-center' to={`/product/${item.id}`}>
-                                    <div className='productTittle fw-bold fs-6 text-secondary'>{item.name}</div>
+                                    <div className='pera productTittle fw-bold'>{item.name}</div>
                                 </Link>
                             </div>
                         ))}
                     </div>
                 </div>
             </div>
+
+            <Faq/>
         </>
     );
 }

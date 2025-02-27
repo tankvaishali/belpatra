@@ -26,7 +26,7 @@ function ProductData() {
                                     {item.inner_Category?.map((innerItem, index) => (
                                         <div className='col-12 col-lg-4 col-md-6 mb-4 d-flex' key={index}>
                                             <Link className='productbox text-decoration-none text-dark d-block text-center p-3 w-100 h-100 d-flex align-items-center justify-content-center' to={`/product/${id}/${innerItem.id}`}>
-                                                <div className='productTittle text-secondary fs-6 fw-bold'>{innerItem.Category}</div>
+                                                <div className='pera productTittle fw-bold'>{innerItem.Category}</div>
                                             </Link>
                                         </div>
                                     ))}
@@ -45,7 +45,7 @@ function ProductData() {
                                     {item.inner_Category?.map((innerItem, index) => (
                                         <div className='col-12 col-lg-4 col-md-6 mb-4 d-flex' key={index}>
                                             <Link className='productbox text-decoration-none text-dark d-block text-center p-3 w-100 h-100 d-flex align-items-center justify-content-center' to={`/product/${id}/${innerItem.id}`}>
-                                                <div className='productTittle text-secondary fs-6 fw-bold'>{innerItem.productcategory}</div>
+                                                <div className='pera productTittle fw-bold'>{innerItem.productcategory}</div>
                                             </Link>
                                         </div>
                                     ))}
