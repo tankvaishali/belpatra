@@ -5,6 +5,8 @@ import "../../Assets/Css/Aboutus.css"
 import Aboutsec from './Aboutsec';
 import Team from './Team';
 import Mision from './Mision';
+import Buttoncom from '../Buttoncom';
+
 
 function Aboutus() {
     return (
@@ -24,6 +26,21 @@ function Aboutus() {
 
             <Aboutsec/>
             <Team/>
+            <div className="contactdetail_bg py-5 mb-5">
+                <div className='container py-5'>
+                    <h1 className="fw-bold fstyle text-white">
+                    Get Bussiness Quote
+                    </h1>
+                    <div className='text-white py-3'>
+                    We took every opportunity to share our great products to more people around the world.
+                    </div>
+                    <div>
+<Link to={"/contact"}>          
+          <Buttoncom btn="Contact Us" />
+          </Link>
+                    </div>
+                </div>
+            </div>
             <Mision/>
         </>
     );

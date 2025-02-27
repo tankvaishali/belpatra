@@ -38,7 +38,7 @@ function Team() {
 
     return (
         <>
-            <div className="py-1 py-md-5">
+            <div className="team_bg_image py-1 py-md-5">
                 <div className="our-team-section position-relative py-5 my-5">
                     <div className="container">
                         <div className="text-center">

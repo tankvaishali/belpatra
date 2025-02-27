@@ -167,7 +167,7 @@ function Mision() {
                     style={{ border: "15px solid white" }}
                   />
                 </div>
-                <div className="fs-5 text-capitalize fw-medium mt-4">healthcare services</div>
+                <div className="fs-5 text-capitalize fw-medium mt-4">Quality, Care, Trust</div>
                 <div className="pera pt-1">
                 Our vision statement is to promote optimum health and wellness through our products. We have a total commitment to health, education, and prosperity.
                 </div>

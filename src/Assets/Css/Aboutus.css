@@ -57,6 +57,14 @@
 /* aboutus end */
 
 /* team start */
+.team_bg_image{
+  background-image: url("../Images/whychooseus_enhanced.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.856); */
+}
 .our-team-section:before {
     position: absolute;
     top: -0;
@@ -174,3 +182,14 @@
     }
   }
 /* team end */
+
+/* about contact start */
+.contactdetail_bg{
+  background-image: url("https://belpatrapharmachem.com/wp-content/uploads/2022/06/features.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.856);
+}
+/* about contact end */
