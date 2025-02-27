@@ -22,8 +22,8 @@ function Faq() {
                                     data-aos-duration="1800"
                                     data-aos-once="true"
                                 >
-                                    Affordable <div>Drug</div>
-                                    Installation
+                                    Affordable  <div>Health</div>
+                                    Solution
                                 </div>
                             </div>
                         </div>

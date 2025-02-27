@@ -29,13 +29,19 @@ function Aboutus() {
             <Team/>
             <div className="contactdetail_bg py-5 mb-5">
                 <div className='container py-5'>
-                    <h1 className="fw-bold fstyle text-white">
+                    <h1 className="fw-bold fstyle text-white" data-aos="zoom-in"
+                            data-aos-once="true"
+                            data-aos-duration="1500">
                     Get Bussiness Quote
                     </h1>
-                    <div className='text-white py-3'>
+                    <div className='text-white py-3' data-aos="fade-up"
+                            data-aos-once="true"
+                            data-aos-duration="1500">
                     We took every opportunity to share our great products to more people around the world.
                     </div>
-                    <div>
+                    <div data-aos="fade-up"
+                            data-aos-once="true"
+                            data-aos-duration="1500">
 <Link to={"/contact"}>          
           <Buttoncom btn="Contact Us" />
           </Link>

@@ -10,7 +10,7 @@ function Mision() {
             <div
               className="col-12 col-lg-6 p-3 pt-1 p-md-5 m-0 "
               style={{ backgroundColor: "rgb(239, 239, 239)" }}
-              data-aos="fade-right" data-aos-duration="1800" data-aos-once="true"
+              data-aos="fade-right" data-aos-duration="1500" data-aos-once="true"
             >
                 <div style={{width:200}}>
                  
@@ -36,7 +36,7 @@ function Mision() {
                
               </div>
             </div>
-            <div className="col-12 col-lg-6 p-3 p-lg-5 m-0 aboutus_bgcolor" data-aos="fade-left" data-aos-duration="1800" data-aos-once="true">
+            <div className="col-12 col-lg-6 p-3 p-lg-5 m-0 aboutus_bgcolor" data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">
               <div className="border pera border-secondary p-4  p-lg-5  text-white h-100">
                 <div className="ps-xxl-5">
                
@@ -93,11 +93,14 @@ function Mision() {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 col-lg-6 p-3 p-md-5 m-0 bg-black order-1 order-lg-0 aboutus_bgcolor" data-aos="fade-right" data-aos-duration="1800" data-aos-once="true">
+            <div className="col-12 col-lg-6 p-3 p-md-5 m-0 bg-black order-1 order-lg-0 aboutus_bgcolor" data-aos="fade-right" data-aos-duration="1500" data-aos-once="true">
               <div className="border border-secondary p-3 p-lg-5  text-white h-100">
          
                 <div className="ps-xxl-5">
-
+                <div className=" fstyle fw-bold text-capitalize fs-1">
+                    {" "}
+                    promote optimum health
+                  </div>
                   <div className=" text-capitalize pt-3 fs-5 fstyle fw-bold">
                     {" "}
                     innovative, efficient, quality solutions
@@ -116,9 +119,7 @@ function Mision() {
                     {" "}
                     All our products are tested on multiple parameters for the assurance of quality and only those products that conform to the desired standards are made available to the customers.
                   </div>
-                  <div className="pera pt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni suscipit asperiores veritatis deserunt ratione hic necessitatibus, maiores cumque obcaecati omnis quisquam quos commodi repellat exercitationem. Assumenda porro non aut cumque? maiores cumque obcaecati omnis quisquam quos commodi repellat exercitationem. Assumenda porro non aut cumque?
-                </div>
+                
                   <div className="pt-3 pera">
                     <p className="py-0  text-capitalize">
                       <span className="pe-2 fs-5">
@@ -152,7 +153,7 @@ function Mision() {
             <div
               className="col-12 col-lg-6 p-3 pt-1 p-md-5 m-0 "
               style={{ backgroundColor: "rgb(239, 239, 239)" }}
-              data-aos="fade-right" data-aos-duration="1800" data-aos-once="true"
+              data-aos="fade-left" data-aos-duration="1800" data-aos-once="true"
             >
                 <div style={{width:200}}>
                  
@@ -178,7 +179,6 @@ function Mision() {
               </div>
             </div>
           </div>
-       
         </div>
       </div>
     </div>

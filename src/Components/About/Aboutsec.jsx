@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 function Aboutsec() {
   return (
 <>
-<div className="aboutus_bgcolor py-5">
+<div className="aboutus_bgcolor py-5 overflow-hidden">
     <div className="container py-3 py-lg-5">
 <div className="row g-3 g-lg-5 ">
     <div className="col-lg-5 col-12 order-1 order-lg-0">
     <h1
-              className="titletext text-white pb-2  "
+              className="titletext text-white pb-2 fstyle "
               data-aos="zoom-in"
               data-aos-duration="1500"
               data-aos-once="true"
