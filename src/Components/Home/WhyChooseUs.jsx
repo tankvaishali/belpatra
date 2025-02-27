@@ -4,6 +4,7 @@ import Buttoncom from '../Buttoncom';
 import { TbCertificate } from 'react-icons/tb';
 import { BiWorld } from 'react-icons/bi';
 import Progress from './Progress';
+import { Link } from 'react-router-dom';
 
 function WhyChooseUs() {
   let chooseus = [
@@ -130,7 +131,10 @@ function WhyChooseUs() {
                       </div>
                     </div>
                     <div className="pt-2">
+                      <Link to={"/product"}>
                       <Buttoncom btn="Learn More" />
+                      </Link>
+                      
                     </div>
                   </div>
                 </div>

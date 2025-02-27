@@ -7,11 +7,13 @@ import Aboutus from './Components/About/Aboutus';
 import ProductPage from './Components/Products/ProductPage';
 import ProductData from './Components/Products/ProductData';
 import ProductInnerForm from './Components/Products/ProductInnerForm';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
   return (
   <>
   <BrowserRouter>
+  <ScrollToTop />
   <Routes>
     <Route path='/' element={<Homepage/>}/>
     <Route path='/about' element={<Aboutus/>}/>
