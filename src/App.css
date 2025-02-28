@@ -311,6 +311,11 @@
 .footerpt {
   padding-top: 100px;
 }
+@media screen and (max-width: 768px) {
+  .footerpt {
+    padding-top: 150px !important;
+  }
+}
 .footericon {
   border: 2px solid white;
   transition: all 0.3s ease-in-out;

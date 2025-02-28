@@ -61,7 +61,7 @@ const Homeservice = () => {
                           <img src={x.src} alt="" className="img-fluid" />
                         </div>
                         <h5 className=" pinkcolor fw-medium py-3">{x.name}</h5>
-                        <p className="pera ">{x.content}</p>
+                        <p className="pera" >{x.content}</p>
 
                       </div>
                     </div>
