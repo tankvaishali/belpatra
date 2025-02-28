@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const HomeAbout = () => {
   return (
-    <div className='homeabout_bg py-5 pb-0 pb-md-5 mt-5 overflow-hidden'>
+    <div className='homeabout_bg py-5 pb-0 pb-md-5 overflow-hidden'>
      <div className="container  py-3 pb-0 pb-md-3 py-lg-5">
 <div className="row g-3">
   <div className="col-12 col-md-6" data-aos="fade-right"
