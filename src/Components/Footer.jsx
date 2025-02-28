@@ -130,7 +130,7 @@ function Footer() {
                     className="text-decoration-none linkhover link_hover py-1 pera"
                     target="_blank"
                   >
-                    Plot No. 1, Shop No. 5, Ground Floor, Shaktinagar Co. Op. Housing Society, Near Kantareswar Mahadev Temple Katargam, Surat – 395004 ,Gujarat
+                    Plot No. 1, Shop No. 5, Ground Floor, Shaktinagar Co. Op. Housing Society, Near Kantareswar Mahadev Temple Katargam, Surat – 395004, Gujarat.
                   </Link>
                 </div>
               </div>
