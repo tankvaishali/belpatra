@@ -84,7 +84,8 @@ seterrmsg({...errmsg})
         </div>
         <div className=''>
         <div className='fs-4 fw-medium py-1 fstyle'>Location</div>
-        <div className='pera py-1 text-secondary'>Plot No. 1, Shop No. 5, Ground Floor, Shaktinagar Co. Op. Housing Society, Near Kantareswar Mahadev Temple Katargam, Surat – 395004 ,Gujarat
+        <div className='pera py-1 text-secondary'>Plot No. 1, Shop No. 5, Ground Floor, Shaktinagar Co. Op. Housing Society, Near Kantareswar Mahadev Temple Katargam, Surat – 395004,
+           Gujarat.
         </div>
         </div>
       </div>
@@ -151,7 +152,7 @@ seterrmsg({...errmsg})
   <input type='number' name='phonenumber' onChange={getdata} value={obj?.phonenumber} placeholder='Type Phone Number' className='w-100 p-2  mt-1 text-secondary border border-secondary-substle form-control' />
   <span className='text-danger  d-block' style={{ fontSize: "14px", height: "17px" }}>{errmsg.phonenumber}</span>
   <label htmlFor='text' className='d-block'> Message</label>
-  <textarea type='text' name='textarea' onChange={getdata} value={obj?.textarea} placeholder='Type your message' className='w-100 p-2 mt-2 text-secondary border border-secondary-substle form-control' />
+  <textarea type='text' name='textarea' onChange={getdata} value={obj?.textarea} placeholder='Type Your Message' className='w-100 p-2 mt-2 text-secondary border border-secondary-substle form-control' />
   <span className='text-danger  d-block' style={{ fontSize: "14px", height: "15px" }}>{errmsg.textarea}</span>
   <br></br>
   {/* <button type='button' className='staff_btn fw-bold  my-2 animated-button  mt-2 shadow' onClick={savedata}><span>Submit</span></button> */}

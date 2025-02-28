@@ -9,7 +9,7 @@ const testimonials = [
     id: 1,
     initial: 'D',
     name: 'John Doe',
-    role: 'Restaurant Manager',
+    role: 'pharmasist',
     review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eum odit repudiandae ab magnam.',
     rating: 3.5
   },
@@ -17,7 +17,7 @@ const testimonials = [
     id: 2,
     initial: 'S',
     name: 'Jane Smith',
-    role: 'Restaurant Manager',
+    role: 'pharmasist',
     review: 'Eveniet, voluptate praesentium! Laboriosam harum et ducimus modi nemo ratione aperiam ex distinctio.',
     rating: 4.5
   },
@@ -25,7 +25,7 @@ const testimonials = [
     id: 3,
     initial: 'M',
     name: 'Michael Johnson',
-    role: 'Restaurant Manager',
+    role: 'pharmasist',
     review: 'Laboriosam harum et ducimus modi nemo ratione aperiam ex distinctio. modi nemo ratione aperiam ex distinctio.',
     rating: 2.5
   }

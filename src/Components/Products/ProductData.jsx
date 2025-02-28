@@ -18,15 +18,15 @@ function ProductData() {
                         {data.map((item) => (
                             <div key={item.id}>
                                 <div className='mb-5'>
-                                    <h3 className="text-white" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800">
-                                        &#x2724; <span className="titletext">{item.name}</span>
+                                    <h3 className="text-white" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800" data-aos-once="true">
+                                        &#x2724; <span className="titletext border-0 pb-2">{item.name}</span>
                                     </h3>
                                 </div>
                                 <div className='row'>
                                     {item.inner_Category?.map((innerItem, index) => (
                                         <div className='col-12 col-lg-4 col-md-6 mb-4 d-flex' key={index}>
-                                            <Link className='productbox text-decoration-none text-dark d-block text-center p-3 w-100 h-100 d-flex align-items-center justify-content-center' to={`/product/${id}/${innerItem.id}`}>
-                                                <div className='productTittle text-secondary fs-6 fw-bold'>{innerItem.Category}</div>
+                                            <Link className='productbox text-decoration-none text-dark d-block text-center p-3 w-100 h-100 d-flex align-items-center justify-content-center' data-aos="fade-up" data-aos-delay="50" data-aos-duration="1800" data-aos-once="true" to={`/product/${id}/${innerItem.id}`}>
+                                                <div className='pera productTittle fw-bold'>{innerItem.Category}</div>
                                             </Link>
                                         </div>
                                     ))}
@@ -37,15 +37,15 @@ function ProductData() {
                         {productdata.map((item) => (
                             <div key={item.id}>
                                 <div className='mb-5'>
-                                    <h3 className="text-white" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800">
-                                        &#x2724; <span className="titletext">{item.name}</span>
+                                    <h3 className="text-white" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1800" data-aos-once="true">
+                                        &#x2724; <span className="titletext border-0 pb-2">{item.name}</span>
                                     </h3>
                                 </div>
                                 <div className='row'>
                                     {item.inner_Category?.map((innerItem, index) => (
                                         <div className='col-12 col-lg-4 col-md-6 mb-4 d-flex' key={index}>
-                                            <Link className='productbox text-decoration-none text-dark d-block text-center p-3 w-100 h-100 d-flex align-items-center justify-content-center' to={`/product/${id}/${innerItem.id}`}>
-                                                <div className='productTittle text-secondary fs-6 fw-bold'>{innerItem.productcategory}</div>
+                                            <Link className='productbox text-decoration-none text-dark d-block text-center p-3 w-100 h-100 d-flex align-items-center justify-content-center' data-aos="fade-up" data-aos-delay="50" data-aos-duration="1800" data-aos-once="true" to={`/product/${id}/${innerItem.id}`}>
+                                                <div className='pera productTittle fw-bold'>{innerItem.productcategory}</div>
                                             </Link>
                                         </div>
                                     ))}

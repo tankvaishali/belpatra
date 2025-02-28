@@ -38,20 +38,20 @@ function Team() {
 
     return (
         <>
-            <div className="team_bg_image py-1 py-md-5">
+            <div className="team_bg_image py-1 py-md-5 overflow-hidden">
                 <div className="our-team-section position-relative py-5 my-5">
                     <div className="container">
                         <div className="text-center">
                             
                                 <h1
-              className="titletext mx-auto  pb-2  "
+              className="titletext mx-auto fstyle pb-2  "
               data-aos="zoom-in"
               data-aos-duration="1500"
               data-aos-once="true"
             >
              Our Team
             </h1>       
-                            <div className="pera py-3" data-aos="fade-up" data-aos-duration="1800" data-aos-once="true">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eaque fuga quisquam praesentium quibusdam quae suscipit nulla id laboriosam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis deleniti ratione et illum quam sit aspernatur facere assumenda sed unde.</div>
+                            <div className="pera py-3" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eaque fuga quisquam praesentium quibusdam quae suscipit nulla id laboriosam mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis deleniti ratione et illum quam sit aspernatur facere assumenda sed unde.</div>
                         </div>
                         <div className="row mt-5 overflow-hidden">
                             {teamMembers.map((member, index) => (

@@ -14,15 +14,15 @@ function Footer() {
       <div className="footer_bg w-100 mt-5">
         <div className="container">
           <div className="row g-4 g-lg-5 footerpt border-bottom border-white border-2" >
-            <div className="col-12 col-md-6 col-lg-5 py-2 py-lg-5">
+            <div className="col-12 col-md-9 col-lg-5 py-2 py-lg-5">
               <div style={{ width: 150 }} data-aos="zoom-in"
-        data-aos-once="true"
-              data-aos-duration="1500">
+                data-aos-once="true"
+                data-aos-duration="1500">
                 <img src={require("../Assets/Images/logo.png")} alt="" className='img-fluid bg-white  p-3 pt-2 rounded-pill d-flex align-items-center' />
               </div>
               <div className='text-white pera mt-2 mt-3' data-aos="fade-up"
-        data-aos-once="true"
-              data-aos-duration="1500">
+                data-aos-once="true"
+                data-aos-duration="1500">
                 To grow as a company that stands for the highest levels of quality standards
               </div>
               <div className='mt-2 mt-lg-4'>
@@ -75,7 +75,7 @@ function Footer() {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-3 py-2 py-lg-5" data-aos="fade-up"
-            
+
               data-aos-once="true"
               data-aos-duration="1500">
               <h3 className='text-white fw-bold border-bottom border-2 pb-2' style={{ width: "fit-content" }}>
@@ -110,7 +110,7 @@ function Footer() {
 
             </div>
             <div className="col-12 col-md-6 col-lg-4 py-2 py-lg-5" data-aos="fade-up"
-            data-aos-delay="100"
+              data-aos-delay="100"
               data-aos-once="true"
               data-aos-duration="1500">
 
@@ -130,7 +130,7 @@ function Footer() {
                     className="text-decoration-none linkhover link_hover py-1 pera"
                     target="_blank"
                   >
-                    Plot No. 1, Shop No. 5, Ground Floor, Shaktinagar Co. Op. Housing Society, Near Kantareswar Mahadev Temple Katargam, Surat – 395004 ,Gujarat
+                    Plot No. 1, Shop No. 5, Ground Floor, Shaktinagar Co. Op. Housing Society, Near Kantareswar Mahadev Temple Katargam, Surat – 395004, Gujarat.
                   </Link>
                 </div>
               </div>

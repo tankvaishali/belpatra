@@ -10,7 +10,7 @@
   border: 1px groove white;
   box-shadow: 0px 0px 4px 2px rgb(120, 34, 131);
   border-radius: 30px 30px 30px 0px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.7s ease-in-out;
   position: relative;
   overflow: hidden;
 }
@@ -27,7 +27,11 @@
     rgb(120, 34, 131) 50%,
     rgb(229, 9, 127) 100%
   );
-  transition: left 0.5s ease-in-out;
+  transition: left 0.7s ease-in-out;
+}
+.productTittle,
+.imageTittle {
+  color: rgba(228, 228, 228, 0.692);
 }
 .productbox:hover::before {
   left: 0;
@@ -37,7 +41,7 @@
   color: white !important;
 }
 .img-secondary {
-  filter: grayscale(100%) brightness(50%);
+  filter: brightness(70%);
   transition: filter 0.3s ease-in-out;
 }
 .productbox:hover .img-secondary {
@@ -101,3 +105,34 @@
   background-size: cover;
 }
 /* / ProductData end / */
+
+/* Faq start */
+/* .work_bg{
+  width: 100%;
+  height: auto;
+  background-image: url("https://img.freepik.com/free-vector/abstract-background-with-minimalist-design_1048-13338.jpg?ga=GA1.1.949763891.1720709653&semt=ais_hybrid");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.img_faq {
+  background-image: url("https://img.freepik.com/free-photo/man-working-as-pharmacist_23-2151734589.jpg?t=st=1740648546~exp=1740652146~hmac=4269e2043446f30b99a07ac067fa2aec7fd4bc11caee817b463f13ba2eef2a96&w=740");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+}
+.accordion-button:focus {
+  color: black;
+  box-shadow: 0 0 0.25rem rgba(248, 248, 248, 0.25);
+}
+.accordion-body {
+  color: gray;
+  font-size: 14px;
+}
+.faqIcon{
+  color: var(--purple);
+}
+/* Faq end */
