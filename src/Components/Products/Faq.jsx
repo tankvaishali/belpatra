@@ -22,7 +22,7 @@ function Faq() {
                                     data-aos-duration="1800"
                                     data-aos-once="true"
                                 >
-                                    Affordable  <div>Health</div>
+                                    Affordable <div>Health</div>
                                     Solution
                                 </div>
                             </div>
@@ -51,7 +51,7 @@ function Faq() {
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
                                                 <button
-                                                    class="accordion-button collapsed"
+                                                    class="accordion-button collapsed addicon"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseOne"
@@ -74,7 +74,7 @@ function Faq() {
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
                                                 <button
-                                                    class="accordion-button collapsed"
+                                                    class="accordion-button collapsed addicon"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseTwo"
@@ -97,7 +97,7 @@ function Faq() {
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
                                                 <button
-                                                    class="accordion-button collapsed"
+                                                    class="accordion-button collapsed addicon"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseThree"
@@ -120,7 +120,7 @@ function Faq() {
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
                                                 <button
-                                                    class="accordion-button collapsed"
+                                                    class="accordion-button collapsed addicon"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseFour"
@@ -143,7 +143,7 @@ function Faq() {
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
                                                 <button
-                                                    class="accordion-button collapsed"
+                                                    class="accordion-button collapsed addicon"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseFive"
