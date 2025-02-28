@@ -1,20 +1,23 @@
 /* Home About start */
-.homeabout_bg{
-  background-image: linear-gradient(90deg,white 70%,rgb(51, 0, 66) 30%);
+.homeabout_bg {
+  background-image: linear-gradient(90deg, white 70%, rgb(51, 0, 66) 30%);
 }
-.iconbg{
+
+.iconbg {
   background-color: var(--purple);
 }
 
-@media screen and (max-width: 768px){
-  .homeabout_bg{
-  background-image: none;
+@media screen and (max-width: 768px) {
+  .homeabout_bg {
+    background-image: none;
   }
-  .aboutcolor{
- background-color: rgb(51, 0, 66);
+
+  .aboutcolor {
+    background-color: rgb(51, 0, 66);
 
   }
 }
+
 /* Home About end */
 
 
@@ -33,38 +36,40 @@
   background-color: black;
   padding: 20px;
   border: 4px solid;
-  border-image-source: linear-gradient(
-    -45deg,
-    rgb(36, 27, 122) 0%,
-    rgb(120, 34, 131),
-    rgb(229, 9, 127) 100%
-  );
+
+  border-image-source: linear-gradient(-45deg,
+      rgb(36, 27, 122) 0%,
+      rgb(120, 34, 131),
+      rgb(229, 9, 127) 100%);
   border-image-slice: 1;
   box-shadow: 0px 0px 15px rgba(36, 27, 122, 0.6),
-              0px 0px 25px rgba(120, 34, 131, 0.5),
-              0px 0px 35px rgba(229, 9, 127, 0.5);
-  
+    0px 0px 25px rgba(120, 34, 131, 0.5),
+    0px 0px 35px rgba(229, 9, 127, 0.5);
+
   transition: all 0.3s ease-in-out;
+  border-radius: 15% 85% 15% 85% / 85% 9% 91% 15%;
 }
 
 /* Optional Hover Effect */
 .cardcss:hover {
+  border-radius: 0px;
   box-shadow: 0px 0px 25px rgba(36, 27, 122, 0.8),
-              0px 0px 35px rgba(120, 34, 131, 0.7),
-              0px 0px 45px rgba(229, 9, 127, 0.6);
-  transform: translateY(-10px); /* Slight lift on hover */
+    0px 0px 35px rgba(120, 34, 131, 0.7),
+    0px 0px 45px rgba(229, 9, 127, 0.6);
+  transform: translateY(-10px);
+  /* Slight lift on hover */
 }
 
 /* home service end */
 
 /* Why choose start */
-.whychoose_bg{
-  
+.whychoose_bg {
+
   background-image: url("../Images/bgimage.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
- 
+
 
 }
 
@@ -79,38 +84,44 @@
 /* Why choose end */
 /* progress start */
 
-.product_high{
+.product_high {
   background-image: url("https://img.freepik.com/premium-photo/black-white-background-with-hexagons-word-hexagons-it_899894-32144.jpg");
   box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.664);
-outline: 1px solid var(--pink);
-outline-offset: -20px;
+  outline: 1px solid var(--pink);
+  outline-offset: -20px;
 }
-.barshadow{
+
+.barshadow {
   box-shadow: 0px 0px 15px rgba(36, 27, 122, 0.6),
-  0px 0px 25px rgba(120, 34, 131, 0.5),
-  0px 0px 35px rgba(229, 9, 127, 0.5);
+    0px 0px 25px rgba(120, 34, 131, 0.5),
+    0px 0px 35px rgba(229, 9, 127, 0.5);
 }
+
 /* progress end */
 /* testimonial start */
-.testimonial_bg  {
+.testimonial_bg {
   background-image: url("../Images/testi-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bgtestimonial{
+
+.bgtestimonial {
   background-image: url('../Images/footercolor.jpg');
   box-shadow: inset 0px 0px 1500px 100px rgba(0, 0, 0, 0.911);
 
   /* background-color: rgb(51, 0, 66); */
-/* background-image: linear-gradient(to right,rgb(40, 0, 53),rgb(51, 0, 66),rgb(138, 57, 163),rgb(224, 161, 241),rgb(138, 57, 163),rgb(51, 0, 66),rgb(40, 0, 53)); */
+  /* background-image: linear-gradient(to right,rgb(40, 0, 53),rgb(51, 0, 66),rgb(138, 57, 163),rgb(224, 161, 241),rgb(138, 57, 163),rgb(51, 0, 66),rgb(40, 0, 53)); */
 }
-.quotecolor{
+
+.quotecolor {
   color: rgba(246, 213, 255, 0.884);
 }
-.quotecolorbg{
+
+.quotecolorbg {
   background-color: rgba(246, 213, 255, 0.884);
 }
+
 .font_fletter {
   font-size: 19px;
   height: 45px;
@@ -125,7 +136,7 @@ outline-offset: -20px;
 }
 
 .testimonial_arrow .carousel-control-prev {
-  left: 95.5% ;
+  left: 95.5%;
   top: 99%;
   height: 50px;
   z-index: 10 !important;
