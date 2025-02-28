@@ -396,25 +396,29 @@
   z-index: 10 !important;
   transition: all 0.9s ease-in-out;
 }
+
 .social_Nav ul {
   list-style-type: none;
   width: 50px;
   transform: translateX(-210px);
 }
+
 .social_Nav ul li {
-  background-color: rgba(34, 33, 33, 0.484);
-  width: 270px;
+  background-color: rgba(34, 33, 33, 0.63);
+  width: 250px;
   margin: 5px !important;
   padding: 6px !important;
   border-radius: 0 30px 30px 0;
   transition: all 0.9s;
 }
 .social_Nav ul li:hover {
-  transform: translateX(110px) !important;
+  transform: translateX(110px);
 }
+
 .social_Nav ul li.Facebook_sideNav .side_Nav_Icon {
   color: #1877f2 !important;
 }
+
 .social_Nav ul li.Instagram_sideNav .side_Nav_Icon {
   color: #c13584 !important;
 }
@@ -453,27 +457,17 @@
 .social_Nav ul li .side_Nav_Icon {
   width: 32px;
   height: 32px;
-  transition: transform 0.4s;
+  transition: transform 1s;
 }
 .social_Nav ul li:hover .side_Nav_Icon {
   transform: rotate(360deg);
 }
 .social_Nav.show_side-icons {
   left: 0;
-}
-.fade-left {
-  opacity: 0;
-  transform: translateX(-20px);
-  animation: fadeLeftAnimation 0.4s ease-out forwards;
-}
-@keyframes fadeLeftAnimation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+} 
+
+/* Social Nav Styling
+
 /* social nav icons end */
 /* logorun start */
 .partners-logo-slider {
