@@ -237,11 +237,11 @@
   border-radius: 1rem;
   text-decoration: none;
   color: inherit;
+  transition: all 0.3s ease !important ;
 }
 
 .news-item:hover {
   transform: translateX(12px) !important;
-  transition: all 0.3s ease !important ;
 }
 
 @media (max-width: 1024px) {

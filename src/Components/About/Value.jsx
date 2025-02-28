@@ -46,9 +46,7 @@ export default function Value() {
                             </div>
                             <div className="news-list">
                                 {newsItems.map((item, index) => (
-                                    <div className="news-item " data-aos="fade-left" data-aos-duration="1500" data-aos-delay={item.delay} data-aos-once="true">
-
-
+                                    <div className="news-item ">
                                         <h3
                                             className="titletext text-white  pb-2  "
                                         >
