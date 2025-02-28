@@ -225,7 +225,7 @@
 /* header start */
 /* Logo Styling */
 .logoset {
-  width: 150px;
+  width: 120px;
 }
 
 /* Navigation Menu Styling */
@@ -268,7 +268,7 @@
   position: absolute;
   bottom: -3px; /* Positions the underline just below the text */
   left: 0;
-  height: 3px;
+  height: 2.5px;
   width: 0;
   background-image: linear-gradient(
     to left,
