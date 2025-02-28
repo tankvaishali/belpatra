@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import "../../Assets/Css/HomeCarousel.css"
+import "../../Assets/Css/HomeCarousel.css";
 import { Link } from "react-router-dom";
 import Buttoncom from "../Buttoncom";
+
 const slidesData = [
     {
         headlineFirstLine: "Welcome to",
@@ -9,7 +10,7 @@ const slidesData = [
         sublineFirstLine: "Innovative Healing for a Healthier Tomorrow",
         bgImg: "https://media.post.rvohealth.io/wp-content/uploads/2020/08/Chamomile_and_Homeopathic_Medicine-1200x628-facebook-1200x628.jpg",
         rectImg: require('../../Assets/Images/Slide2.jpg'),
-        btntext: "WelCome to"
+        btntext: "Welcome to"
     },
     {
         headlineFirstLine: "Quality Medicine",
@@ -44,15 +45,15 @@ const HomeCarouselcom = () => {
         let startX = 0;
         let endX = 0;
 
-        const handleTouchStart = (event) => startX = event.touches[0].pageX;
-        const handleTouchMove = (event) => endX = event.touches[0].pageX;
+        const handleTouchStart = (event) => (startX = event.touches[0].pageX);
+        const handleTouchMove = (event) => (endX = event.touches[0].pageX);
         const handleTouchEnd = () => {
             const threshold = startX - endX;
-            if (threshold < 150 && currentSlide > 0) {
-                setCurrentSlide((prev) => prev - 1);
+            if (threshold > 100 && currentSlide < slidesData.length - 1) {
+                updateSlide(currentSlide + 1);
             }
-            if (threshold > -150 && currentSlide < slidesData.length - 1) {
-                setCurrentSlide((prev) => prev + 1);
+            if (threshold < -100 && currentSlide > 0) {
+                updateSlide(currentSlide - 1);
             }
         };
 
@@ -60,16 +61,19 @@ const HomeCarouselcom = () => {
         window.addEventListener("touchmove", handleTouchMove);
         window.addEventListener("touchend", handleTouchEnd);
 
-        const interval = setInterval(() => {
-            setCurrentSlide((prev) => (prev + 1) % slidesData.length);
-        }, 5000); // Change slide every 5 seconds
-
         return () => {
-            clearInterval(interval);
             window.removeEventListener("touchstart", handleTouchStart);
             window.removeEventListener("touchmove", handleTouchMove);
             window.removeEventListener("touchend", handleTouchEnd);
         };
+    }, [currentSlide]);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            updateSlide((currentSlide + 1) % slidesData.length);
+        }, 5000); // Auto-slide every 5 seconds
+
+        return () => clearInterval(interval);
     }, [currentSlide]);
 
     return (
@@ -95,7 +99,9 @@ const HomeCarouselcom = () => {
                                 <p>{slide.headlineFirstLine}</p>
                                 <p>{slide.headlineSecondLine}</p>
                             </h1>
-                            <Link to={"/about"} className="slide-content-cta" href="tel:7048313227"> <Buttoncom btn="Know More" /></Link>
+                            <Link to={"/about"} className="slide-content-cta">
+                                <Buttoncom btn="Know More" />
+                            </Link>
                         </div>
                         <h2 className="slide-side-text">
                             <span>{slide.sublineFirstLine}</span>
@@ -115,7 +121,7 @@ const HomeCarouselcom = () => {
                 ))}
             </div>
             <div className="pagination-container">
-                {slidesData.map((slide, index) => (
+                {slidesData.map((_, index) => (
                     <span
                         key={index}
                         className={`pagination-item ${index === currentSlide ? "active" : ""}`}
