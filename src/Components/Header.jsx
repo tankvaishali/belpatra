@@ -49,7 +49,7 @@ function Header() {
                 </NavLink>
               </li>
             </ul>
-            <div className="  text-white fw-bolder h-100 d-flex align-content-center align-items-center px-2">
+            <div className="  text-white fw-bolder h-100 d-flex align-content-center align-items-center px-2 d-none d-md-block">
          
             
          <Link to={"tel:9898399973"} className="text-decoration-none  d-flex align-items-center justify-content-center"> 
