@@ -43,9 +43,9 @@ const Logorun = () => {
                         </div>
                         <div
                             className="partners-logo-slider col-lg-6 col-md-8 col-sm-10 col-11 my-lg-0 my-5 py-2 py-lg-5"
-                          
+
                         >
-                            <ImageList variant="masonry" cols={2} gap={8} className="slide-track">
+                            <ImageList variant="masonry" cols={2} gap={8} className="slide-track overflow-x-hidden">
                                 {logos.concat(logos).map((item, index) => (
                                     <ImageListItem
                                         key={index}
@@ -55,7 +55,7 @@ const Logorun = () => {
                                             src={item}
                                             alt={`Logo ${index}`}
                                             loading="lazy"
-                                           
+
                                         />
                                     </ImageListItem>
                                 ))}
