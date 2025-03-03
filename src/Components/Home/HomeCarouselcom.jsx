@@ -4,24 +4,24 @@ import { Link } from "react-router-dom";
 import Buttoncom from "../Buttoncom";
 const slidesData = [
     {
-        headlineFirstLine: "Welcome to",
+        headlineFirstLine: "Welcome To",
         headlineSecondLine: "Belpatra",
         sublineFirstLine: "Innovative Healing for a Healthier Tomorrow",
         bgImg: require("../../Assets/Images/carousel01.jpg"),
         rectImg: require("../../Assets/Images/carousel001.jpeg"),
         btntext: "WelCome to",
-        path:"/about",
-        pathbtn:"Know More"
+        path: "/about",
+        pathbtn: "Know More"
     },
     {
         headlineFirstLine: "Quality Medicine",
         headlineSecondLine: "",
         sublineFirstLine: "Quality Medicine for Better Health",
         bgImg: require("../../Assets/Images/carousel02.jpg"),
-        rectImg:require("../../Assets/Images/carousel002.jpg"),
+        rectImg: require("../../Assets/Images/carousel002.jpg"),
         btntext: "Quality Medicine",
-        path:"/product",
-        pathbtn:"View More"
+        path: "/product",
+        pathbtn: "View More"
     },
     {
         headlineFirstLine: "Innovative Healing",
@@ -30,8 +30,8 @@ const slidesData = [
         bgImg: require("../../Assets/Images/carousl03.jpg"),
         rectImg: require("../../Assets/Images/borderimage.jpg"),
         btntext: "Innovative Healing",
-        path:"/contact",
-        pathbtn:"Contact Us"
+        path: "/contact",
+        pathbtn: "Contact Us"
     }
 ];
 

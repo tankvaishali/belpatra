@@ -29,7 +29,7 @@ function HOC(Component) {
 
        
             <div>
-               <div className={`social_Nav position-fixed ${isVisible ? "show_side-icons" : ""}`}>
+               <div className={`social_Nav position-fixed d-none d-md-block ${isVisible ? "show_side-icons" : ""}`}>
                   <ul className='p-0'>
                      <li className="Facebook_sideNav d-block text-end">
                         <Link to="https://www.facebook.com/people/Belpatra-Pharmachem/100082567202591/" target="_blank" className='sideNavIcon_tittle align-items-center text-white text-decoration-none'>
