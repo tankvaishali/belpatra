@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import '../App.css'; // Ensure this CSS file is imported properly
 import { MdWifiCalling3 } from 'react-icons/md';
-import { FaLeftLong } from 'react-icons/fa6';
-import { BiAlignLeft } from 'react-icons/bi';
 import { LuAlignRight } from 'react-icons/lu';
 import { IoCloseSharp } from 'react-icons/io5';
 
