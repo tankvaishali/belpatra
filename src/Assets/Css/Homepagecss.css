@@ -85,7 +85,7 @@
 /* progress start */
 
 .product_high {
-  background-image: url("https://img.freepik.com/premium-photo/black-white-background-with-hexagons-word-hexagons-it_899894-32144.jpg");
+  background-image: url("../Images/progress_bg_image.jpg");
   box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.664);
   outline: 1px solid var(--pink);
   outline-offset: -20px;

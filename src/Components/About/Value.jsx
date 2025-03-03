@@ -46,7 +46,7 @@ export default function Value() {
                             </div>
                             <div className="news-list">
                                 {newsItems.map((item, index) => (
-                                    <div className="news-item ">
+                                    <div className="news-item " key={index}>
                                         <h3
                                             className="titletext text-white  pb-2  "
                                         >

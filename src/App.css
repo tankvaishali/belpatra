@@ -176,7 +176,7 @@
 .landing_image,
 .landing_aboutimage,
 .landing_ProductPageimage {
-  background-image: url("https://img.freepik.com/free-photo/colleagues-working-together-call-center-office_23-2149256064.jpg?t=st=1740484421~exp=1740488021~hmac=c79ed31e35e1f2ee8d0ffe28acefc0f6b7b6682a5eac3068f1ea383bd485ab40&w=1060");
+  background-image: url("./Assets/Images/contactpage_bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

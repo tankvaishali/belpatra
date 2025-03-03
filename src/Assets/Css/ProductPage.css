@@ -1,10 +1,10 @@
 /* / ProductPage start / */
 .bg_ProductImage {
   width: 100%;
-  height: auto;
-  background-image: url("https://img.freepik.com/free-photo/modern-background-with-lines_1361-3533.jpg?ga=GA1.1.949763891.1720709653&semt=ais_hybrid");
-  background-repeat: repeat;
-  background-size: contain;
+  /* height: auto; */
+  background-image: url("../Images/productbg_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .productbox {
@@ -78,7 +78,7 @@
 .bg_ProductInnerForm {
   width: 100%;
   height: auto;
-  background-image: url("https://img.freepik.com/free-vector/modern-abstract-white-minimal-background_84443-8335.jpg?t=st=1731306175~exp=1731309775~hmac=d179c2fc8d9a76b34230ff494ff52c3c9a0a8034c18102a291850f0c1eb0ae13&w=1060");
+  background-image: url("../Images/form_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -115,7 +115,7 @@
 .bg_ProductdataImage {
   width: 100%;
   height: auto;
-  background-image: url("https://img.freepik.com/free-vector/black-shiny-wallpaper-background-design_1017-38062.jpg?ga=GA1.1.949763891.1720709653&semt=ais_hybrid");
+  background-image: url("../Images/productbg_image.jpg");
   background-repeat: repeat;
   background-size: cover;
 }
@@ -131,7 +131,7 @@
   background-size: cover;
 } */
 .img_faq {
-  background-image: url("https://img.freepik.com/free-photo/man-working-as-pharmacist_23-2151734589.jpg?t=st=1740648546~exp=1740652146~hmac=4269e2043446f30b99a07ac067fa2aec7fd4bc11caee817b463f13ba2eef2a96&w=740");
+  background-image: url("../Images/faq_bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

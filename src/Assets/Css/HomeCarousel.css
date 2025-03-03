@@ -229,7 +229,9 @@
   box-shadow: 2px 2px 90px 30px rgba(41, 50, 61, 0.22);
   will-change: auto;
 }
-
+.slide-content-cta .staff_btn {
+  padding: 20px 51px !important;
+}
 @media (max-height: 790px) {
   .slide-rect {
     left: 9vw;

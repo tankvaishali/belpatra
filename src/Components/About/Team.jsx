@@ -9,28 +9,28 @@ function Team() {
         {
             name: "Team 1",
             post: "Inhaber & Geschäftsführer",
-            imgSrc: "https://i.ibb.co/8x9xK4H/team.jpg",
+            imgSrc: require("../../Assets/Images/teammember.jpg"),
             aos: "fade-right",
             delay: ""
         },
         {
             name: "Team 2",
             post: "Stellvertretender",
-            imgSrc: "https://i.ibb.co/8x9xK4H/team.jpg",
+            imgSrc: require("../../Assets/Images/teammember.jpg"),
             aos: "fade-up",
             delay: "400"
         },
         {
             name: "Team 3",
             post: "Dipl. Physiotherapeut",
-            imgSrc: "https://i.ibb.co/8x9xK4H/team.jpg",
+            imgSrc: require("../../Assets/Images/teammember.jpg"),
             aos: "fade-down",
             delay: "800"
         },
         {
             name: "Team 4",
             post: "Dipl. Physiotherapeut",
-            imgSrc: "https://i.ibb.co/8x9xK4H/team.jpg",
+            imgSrc: require("../../Assets/Images/teammember.jpg"),
             aos: "fade-left",
             delay: "1200"
         },

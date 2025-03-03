@@ -3,7 +3,7 @@ export const ProductList = [
     // Tablet
     {
         id: "Tablet",
-        image: "https://belpatrapharmachem.com/wp-content/uploads/2022/07/tablet.png",
+        image: require("../../Assets/Images/tablet (1).png"),
         name: "Tablet",
         inner_Category: [
             {
@@ -22,7 +22,8 @@ export const ProductList = [
     // capsule
     {
         id: "capsule",
-        image: "https://belpatrapharmachem.com/wp-content/uploads/2022/07/capsule.png",
+        image: require("../../Assets/Images/capsule (1).png"),
+
         name: "capsule",
         inner_Category: [
             {
@@ -41,7 +42,7 @@ export const ProductList = [
     // Injections
     {
         id: "Injections",
-        image: "https://belpatrapharmachem.com/wp-content/uploads/2022/07/creams.png",
+        image: require("../../Assets/Images/creams.png"),
         name: "Injections",
         inner_Category: [
             {
@@ -60,7 +61,8 @@ export const ProductList = [
     // Surgical Items
     {
         id: "Surgical Items",
-        image: "https://belpatrapharmachem.com/wp-content/uploads/2022/07/other.png",
+        image: require("../../Assets/Images/other.png"),
+
         name: "Surgical Items",
         inner_Category: [
             {
@@ -79,7 +81,8 @@ export const ProductList = [
     // External Preparation
     {
         id: "External Preparation",
-        image: "https://belpatrapharmachem.com/wp-content/uploads/2022/07/tablet.png",
+        image: require("../../Assets/Images/tablet (1).png"),
+
         name: "External Preparation",
         inner_Category: [
             {
@@ -98,7 +101,7 @@ export const ProductList = [
     // Syrup
     {
         id: "Syrup",
-        image: "https://belpatrapharmachem.com/wp-content/uploads/2022/07/suspension.png",
+        image: require("../../Assets/Images/suspension.png"),
         name: "Syrup",
         inner_Category: [
             {
@@ -117,7 +120,7 @@ export const ProductList = [
     // Medical Devices
     {
         id: "Medical Devices",
-        image: "https://belpatrapharmachem.com/wp-content/uploads/2022/07/other.png",
+        image: require("../../Assets/Images/other.png"),
         name: "Medical Devices",
         inner_Category: [
             {
