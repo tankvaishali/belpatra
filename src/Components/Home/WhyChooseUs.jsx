@@ -102,7 +102,7 @@ function WhyChooseUs() {
                           <FaCheckCircle />
                         </div>
                         <div className="ps-2 fw-medium ">
-                          Rigorous quality assurance
+                         Lorem ipsum dolor sit amet consectetur.
                         </div>
                       </div>
                       <div className="d-flex align-content-center align-items-center  py-1">
@@ -110,7 +110,7 @@ function WhyChooseUs() {
                           <FaCheckCircle />
                         </div>
                         <div className="ps-2 fw-medium ">
-                          Professional installation and setup
+                          Lorem ipsum dolor sit amet.
                         </div>
                       </div>
                       <div className="d-flex align-content-center align-items-center  py-1">
@@ -118,7 +118,7 @@ function WhyChooseUs() {
                           <FaCheckCircle />
                         </div>
                         <div className="ps-2 fw-medium ">
-                          Sustainable, eco-friendly solutions
+                         Lorem ipsum dolor sit amet.
                         </div>
                       </div>
                       <div className="d-flex align-content-center align-items-center align-items-lg-stretch  py-1">
@@ -126,7 +126,7 @@ function WhyChooseUs() {
                           <FaCheckCircle />
                         </div>
                         <div className="ps-2 fw-medium ">
-                          Custom solar systems for maximum efficiency
+                         Lorem ipsum dolor sit amet consectetur adipisicing.
                         </div>
                       </div>
                     </div>
