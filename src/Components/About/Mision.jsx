@@ -23,7 +23,7 @@ function Mision() {
                 <div className=" my-2 allimg">
                     <div className="desc1"></div>
                   <img
-                    src="https://jr-equipment.vercel.app/static/media/mission.f7702e9e5ba7a46846dc.jpg"
+                    src={require("../../Assets/Images/mission.jpg")}
                     alt=""
                     className="img-fluid w-100 h-100 object-fit-cover"
                     style={{ border: "15px solid white" }}
@@ -166,7 +166,7 @@ function Mision() {
                 <div className=" my-2 allimg">
                     <div className="desc1"></div>
                   <img
-                    src="https://jr-equipment.vercel.app/static/media/problem-solving-concept-with-graphic_23-2149908695.3af8b38317bce96cfc58.jpg"
+                    src={require("../../Assets/Images/vision.jpg")}
                     alt=""
                     className="img-fluid w-100 h-100 object-fit-cover"
                     style={{ border: "15px solid white" }}

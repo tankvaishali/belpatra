@@ -55,7 +55,7 @@ const Logorun = () => {
                                             src={item}
                                             alt={`Logo ${index}`}
                                             loading="lazy"
-                                            className="rounded-4"
+                                           
                                         />
                                     </ImageListItem>
                                 ))}
