@@ -229,7 +229,7 @@
 }
 .navbar-toggler{
  
-  border: 0;
+  border: 0px !important;
   padding: 3px;
 }
 .navbar-toggler-icon{
