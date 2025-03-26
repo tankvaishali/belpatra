@@ -9,7 +9,7 @@
     height: 530px;
 }
 .marginminus{
-    margin-top: -100px;
+    margin-top: -100px !important;
 }
 .hoverrotate {
     text-align: center;
@@ -26,9 +26,7 @@
   .texthover{
     color: var(--pink);
     transition: transform 0.5s ease-in-out;
-
   }
-  
   .hoverrotate:hover .rotateimg {
     transform: rotateY(360deg);
   }
@@ -36,11 +34,9 @@
   .hoverrotate:hover .texthover {
     color: var(--purple);
   }
-  
-
 @media screen and (max-width: 991px){
     .marginminus{
-        margin-top: 0px;
+        margin-top: 0px !important;
     }
     .aboutimageheight{
         height: 350px;
@@ -48,7 +44,7 @@
 }
 @media screen and (min-width: 991px) and (max-width:1200px){
     .marginminus{
-        margin-top: -50px;
+        margin-top: -50px !important;
     }
     .aboutimageheight{
         height: 550px;
